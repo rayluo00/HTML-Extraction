@@ -43,7 +43,7 @@ public class ExtractHTML {
 
 	private static void FindLinks (ArrayList<HtmlData> htmlDataList) {
 		int lslens = htmlDataList.size();
-		Pattern regex = Pattern.compile("<(.|\n)*?>");
+		Pattern regex = Pattern.compile("<(.)*?>");
 
 		for (int i = 0; i < lslens; i++) {
 			Matcher match = regex.matcher(htmlDataList.get(i).GetHtml());
