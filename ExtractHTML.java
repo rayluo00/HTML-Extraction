@@ -42,8 +42,40 @@ public class ExtractHTML {
 		return htmlDataList;
 	}
 
-	private static void FindLinks (String htmlLine) {
-	
+	private static void FindSequences (String htmlSequence) {
+		String sequence;
+		int sequenceSize;
+		LinkedList<String> validSequence = new LinkedList<String>();
+
+		// Go through all the text between HTML tags
+		for (String sentence : htmlSequence.split("<[^>]+>")) {
+			sequence = new String();
+			sequenceSize = 0;
+			//System.out.println("SENTENCE: \'"+sentence+"\'");
+			// Go through each word in a valid text line.
+			for (String word : sentence.split("[~`,./<>?;':/[/]{}!@#$%^()-/|\\s]")) {
+				if (!word.equals("")) {
+					if (Character.isUpperCase(word.charAt(0)) && word.length() > 1) {
+						//System.out.println("WORD: \'"+word+"\'");
+						//validSequence.add(word);
+						sequence += word + " ";
+						sequenceSize++;
+					} else {
+						//System.out.println("NOT WORD: \'"+word+"\'");
+
+						if (sequenceSize > 1) {
+							System.out.println("VALID: \'"+sequence+"\'");
+						}
+						sequence = "";
+						sequenceSize = 0;
+					}
+				}
+			}
+
+			if (sequenceSize > 1) {
+				System.out.println("VALID: \'"+sequence+"\'");
+			}
+		}
 	}
 
 	private static void FindTags (String htmlTag) {
@@ -71,17 +103,20 @@ public class ExtractHTML {
 	private static void ParseHtml (ArrayList<HtmlData> htmlDataList) {
 		int lslens = htmlDataList.size();
 		String[] tagReformatArray;
-		Pattern regex = Pattern.compile("<(.)*?>");
-		String htmlTag;
+		Pattern tagRegex = Pattern.compile("<(.)*?>", Pattern.CASE_INSENSITIVE);
+		String htmlLine;
 
 		for (int i = 0; i < lslens; i++) {
-			Matcher match = regex.matcher(htmlDataList.get(i).GetHtml());
-			System.out.println(htmlDataList.get(i).GetHtml()+"|END|");
+			htmlLine = htmlDataList.get(i).GetHtml();
 
-			while (match.find()) {
-				htmlTag = match.group().toString();
-				FindLinks(htmlTag);
-				FindTags(htmlTag);
+			Matcher tagMatch = tagRegex.matcher(htmlLine);
+			System.out.println(htmlLine+"|END|");
+
+			FindSequences(htmlLine);
+
+			while (tagMatch.find()) {
+				htmlLine = tagMatch.group().toString();
+				FindTags(htmlLine);
 			}
 			System.out.println("\n");
 		}
@@ -98,8 +133,9 @@ public class ExtractHTML {
 		try {
 			PrintWriter outputWriter = new PrintWriter(new FileWriter(outputFileName, true));
 			URL siteUrl = new URL(website);
-			HttpURLConnection siteConnection = (HttpURLConnection) siteUrl.openConnection();
-			BufferedReader urlReader = new BufferedReader(new InputStreamReader(siteConnection.getInputStream()));
+			HttpURLConnection urlConnection = (HttpURLConnection) siteUrl.openConnection();
+			BufferedReader urlReader = new BufferedReader(new InputStreamReader(
+									urlConnection.getInputStream()));
 			
 			htmlDataList = ConstructHtmlString(urlReader);
 
