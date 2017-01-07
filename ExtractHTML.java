@@ -7,7 +7,7 @@ import java.util.regex.Matcher;
 public class ExtractHTML {
 
 	private static String ValidateWebsiteURL (String websiteURL) {
-		String newURL = new String();
+		String newURL = websiteURL;
 
 		if (!websiteURL.startsWith("http://") && !websiteURL.startsWith("https://")) {
 			newURL = "http://"+websiteURL;
@@ -19,6 +19,7 @@ public class ExtractHTML {
 	private static ArrayList<HtmlData> ConstructHtmlString (BufferedReader urlReader) throws IOException {
 		String htmlString = new String();
 		String input;
+		int inputLength;
 		ArrayList<HtmlData> htmlDataList = new ArrayList<HtmlData>();
 
 		while ((input = urlReader.readLine()) != null) {
@@ -26,7 +27,11 @@ public class ExtractHTML {
 			if (!input.equals("")) {
 				input = input.replaceAll("^\\s+", "").replaceAll("\\s+$", "");
 
-				if (input.charAt(input.length() - 1) != '>') {
+				//System.out.println("--OVER HERE--\'"+input+"\'--OVER HERE--\n\n");
+
+				inputLength = input.length();
+
+				if (inputLength > 0 && input.charAt(inputLength - 1) != '>') {
 					htmlString += input;	
 				} else {
 					htmlString += input;
@@ -42,6 +47,10 @@ public class ExtractHTML {
 		return htmlDataList;
 	}
 
+	private static void FindLinks (String htmlLinks) {
+		
+	}
+
 	private static void FindSequences (String htmlSequence) {
 		String sequence;
 		int sequenceSize;
@@ -53,11 +62,10 @@ public class ExtractHTML {
 			sequenceSize = 0;
 			//System.out.println("SENTENCE: \'"+sentence+"\'");
 			// Go through each word in a valid text line.
-			for (String word : sentence.split("[~`,./<>?;':/[/]{}!@#$%^()-/|\\s]")) {
+			for (String word : sentence.split("[~`,./<>?;':/[/]{}!@#$%^()-/_\\|\\s]")) {
 				if (!word.equals("")) {
 					if (Character.isUpperCase(word.charAt(0)) && word.length() > 1) {
 						//System.out.println("WORD: \'"+word+"\'");
-						//validSequence.add(word);
 						sequence += word + " ";
 						sequenceSize++;
 					} else {
@@ -112,6 +120,7 @@ public class ExtractHTML {
 			Matcher tagMatch = tagRegex.matcher(htmlLine);
 			System.out.println(htmlLine+"|END|");
 
+			FindLinks(htmlLine);
 			FindSequences(htmlLine);
 
 			while (tagMatch.find()) {
@@ -129,13 +138,14 @@ public class ExtractHTML {
 		ArrayList<HtmlData> htmlDataList;
 		
 		website = ValidateWebsiteURL(website);
+		System.out.println("Connect to: "+website);
 		
 		try {
 			PrintWriter outputWriter = new PrintWriter(new FileWriter(outputFileName, true));
 			URL siteUrl = new URL(website);
-			HttpURLConnection urlConnection = (HttpURLConnection) siteUrl.openConnection();
-			BufferedReader urlReader = new BufferedReader(new InputStreamReader(
-									urlConnection.getInputStream()));
+			URLConnection urlConnection = siteUrl.openConnection();
+			BufferedReader urlReader = new BufferedReader(
+							new InputStreamReader(urlConnection.getInputStream()));
 			
 			htmlDataList = ConstructHtmlString(urlReader);
 
@@ -143,9 +153,11 @@ public class ExtractHTML {
 
 			ParseHtml(htmlDataList);
 		} catch (MalformedURLException e) {
-			System.out.println("ERROR: Problem with the URL of the website.");
+			//System.out.println("ERROR: Problem with the URL of the website.");
+			e.printStackTrace();
 		} catch (IOException e) {
-			System.out.println("ERROR: I/O exception.");
+			//System.out.println("ERROR: I/O exception.");
+			e.printStackTrace();
 		}
 	}
 }
