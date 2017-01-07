@@ -19,7 +19,6 @@ public class ExtractHTML {
 	private static ArrayList<HtmlData> ConstructHtmlString (BufferedReader urlReader) throws IOException {
 		String htmlString = new String();
 		String input;
-		int inputLength;
 		ArrayList<HtmlData> htmlDataList = new ArrayList<HtmlData>();
 
 		while ((input = urlReader.readLine()) != null) {
@@ -29,9 +28,7 @@ public class ExtractHTML {
 
 				//System.out.println("--OVER HERE--\'"+input+"\'--OVER HERE--\n\n");
 
-				inputLength = input.length();
-
-				if (inputLength > 0 && input.charAt(inputLength - 1) != '>') {
+				if (!input.equals("") && input.charAt(input.length() - 1) != '>') {
 					htmlString += input;	
 				} else {
 					htmlString += input;
@@ -72,7 +69,7 @@ public class ExtractHTML {
 						//System.out.println("NOT WORD: \'"+word+"\'");
 
 						if (sequenceSize > 1) {
-							System.out.println("VALID: \'"+sequence+"\'");
+							//System.out.println("VALID: \'"+sequence+"\'");
 						}
 						sequence = "";
 						sequenceSize = 0;
@@ -81,52 +78,51 @@ public class ExtractHTML {
 			}
 
 			if (sequenceSize > 1) {
-				System.out.println("VALID: \'"+sequence+"\'");
+				//System.out.println("VALID: \'"+sequence+"\'");
 			}
 		}
 	}
 
-	private static void FindTags (String htmlTag) {
+	private static void FindTags (String htmlLine) {
+		String htmlTag;
 		boolean hasClosingTag = false;
+		Pattern tagRegex = Pattern.compile("<(.)*?>", Pattern.CASE_INSENSITIVE);
+		Matcher tagMatch = tagRegex.matcher(htmlLine);
+		
+		while (tagMatch.find()) {
+			htmlTag = tagMatch.group().toString();
 
-		if (htmlTag.charAt(1) != '!') {
-			if (htmlTag.charAt(htmlTag.length() - 2) == '/') {
-				hasClosingTag = true;
-			}
-
-			htmlTag = htmlTag.split("\\s+")[0];
-
-			if (htmlTag.charAt(htmlTag.length() - 1) != '>') {
-				if (hasClosingTag) {
-					htmlTag += "/";
+			if (htmlTag.charAt(1) != '!') {
+				if (htmlTag.charAt(htmlTag.length() - 2) == '/') {
+					hasClosingTag = true;
 				}
 
-				htmlTag += ">";
-			}
+				htmlTag = htmlTag.split("\\s+")[0];
 
-			System.out.println("FOUND: "+htmlTag);
+				if (htmlTag.charAt(htmlTag.length() - 1) != '>') {
+					if (hasClosingTag) {
+						htmlTag += "/";
+					}
+
+					htmlTag += ">";
+				}
+				System.out.println("FOUND: "+htmlTag);
+			}
 		}
 	}
 
 	private static void ParseHtml (ArrayList<HtmlData> htmlDataList) {
 		int lslens = htmlDataList.size();
-		String[] tagReformatArray;
-		Pattern tagRegex = Pattern.compile("<(.)*?>", Pattern.CASE_INSENSITIVE);
 		String htmlLine;
 
 		for (int i = 0; i < lslens; i++) {
 			htmlLine = htmlDataList.get(i).GetHtml();
-
-			Matcher tagMatch = tagRegex.matcher(htmlLine);
 			System.out.println(htmlLine+"|END|");
 
 			FindLinks(htmlLine);
 			FindSequences(htmlLine);
+			FindTags(htmlLine);
 
-			while (tagMatch.find()) {
-				htmlLine = tagMatch.group().toString();
-				FindTags(htmlLine);
-			}
 			System.out.println("\n");
 		}
 	}
