@@ -22,6 +22,7 @@ public class ExtractHTML {
 		ArrayList<HtmlData> htmlDataList = new ArrayList<HtmlData>();
 
 		while ((input = urlReader.readLine()) != null) {
+			//System.out.println(input);
 			if (!input.equals("")) {
 				input = input.replaceAll("^\\s+", "").replaceAll("\\s+$", "");
 
@@ -41,18 +42,48 @@ public class ExtractHTML {
 		return htmlDataList;
 	}
 
-	private static void FindLinks (ArrayList<HtmlData> htmlDataList) {
+	private static void FindLinks (String htmlLine) {
+	
+	}
+
+	private static void FindTags (String htmlTag) {
+		boolean hasClosingTag = false;
+
+		if (htmlTag.charAt(1) != '!') {
+			if (htmlTag.charAt(htmlTag.length() - 2) == '/') {
+				hasClosingTag = true;
+			}
+
+			htmlTag = htmlTag.split("\\s+")[0];
+
+			if (htmlTag.charAt(htmlTag.length() - 1) != '>') {
+				if (hasClosingTag) {
+					htmlTag += "/";
+				}
+
+				htmlTag += ">";
+			}
+
+			System.out.println("FOUND: "+htmlTag);
+		}
+	}
+
+	private static void ParseHtml (ArrayList<HtmlData> htmlDataList) {
 		int lslens = htmlDataList.size();
+		String[] tagReformatArray;
 		Pattern regex = Pattern.compile("<(.)*?>");
+		String htmlTag;
 
 		for (int i = 0; i < lslens; i++) {
 			Matcher match = regex.matcher(htmlDataList.get(i).GetHtml());
 			System.out.println(htmlDataList.get(i).GetHtml()+"|END|");
 
 			while (match.find()) {
-				System.out.println("FOUND: "+match.group());
+				htmlTag = match.group().toString();
+				FindLinks(htmlTag);
+				FindTags(htmlTag);
 			}
-			System.out.println("\n\n");
+			System.out.println("\n");
 		}
 	}
 	
@@ -61,19 +92,20 @@ public class ExtractHTML {
 		String website = args[0];
 		String outputFileName = args[1];
 		ArrayList<HtmlData> htmlDataList;
-
+		
 		website = ValidateWebsiteURL(website);
 		
 		try {
 			PrintWriter outputWriter = new PrintWriter(new FileWriter(outputFileName, true));
 			URL siteUrl = new URL(website);
-			BufferedReader urlReader = new BufferedReader(new InputStreamReader(siteUrl.openStream()));
+			HttpURLConnection siteConnection = (HttpURLConnection) siteUrl.openConnection();
+			BufferedReader urlReader = new BufferedReader(new InputStreamReader(siteConnection.getInputStream()));
 			
 			htmlDataList = ConstructHtmlString(urlReader);
 
 			urlReader.close();
 
-			FindLinks(htmlDataList);
+			ParseHtml(htmlDataList);
 		} catch (MalformedURLException e) {
 			System.out.println("ERROR: Problem with the URL of the website.");
 		} catch (IOException e) {
