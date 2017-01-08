@@ -55,14 +55,13 @@ public class ExtractHTML {
 
 		while ((input = urlReader.readLine()) != null) {
 			if (!input.equals("")) {
+				// Remove white space from HTML line and filter out the scripts.
 				input = input.replaceAll("^\\s+", "").replaceAll("\\s+$", "");
 				input = input.replaceAll("<\\s*script[^>]*>(.*?)<\\s*/\\s*script>", "<script></script>");
-				//System.out.println(input+"\n\n");
 
 				if (!inScript) {
 					if (input.contains("<script")) {
 						inScript = true;
-						
 					}
 
 					if (!input.equals("") && input.charAt(input.length() - 1) != '>') {
@@ -77,7 +76,6 @@ public class ExtractHTML {
 					}
 				}
 
-				// If input initiated a script by seeing a <script> tag
 				// Don't recieve upcoming inputs until script it closed.
 				if (input.contains("</script>") && inScript) {
 					inScript = false;

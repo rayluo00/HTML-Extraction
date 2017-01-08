@@ -15,4 +15,5 @@ run:
 	java ExtractHTML https://mywestern.wwu.edu wwu_output.txt
 	java ExtractHTML https://en.wikipedia.org/wiki/Main_Page wiki_ouput.txt
 	java ExtractHTML https://yahoo.com yahoo_output.txt
+	java ExtractHTML xkcd.com xkcd_output.txt
 	@echo "Program finished."
