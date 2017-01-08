@@ -56,16 +56,19 @@ public class ExtractHTML {
 		while ((input = urlReader.readLine()) != null) {
 			if (!input.equals("")) {
 				input = input.replaceAll("^\\s+", "").replaceAll("\\s+$", "");
-
-				//System.out.println("INPUT: "+input+"\n\n");
+				input = input.replaceAll("<\\s*script[^>]*>(.*?)<\\s*/\\s*script>", "<script></script>");
+				//System.out.println(input+"\n\n");
 
 				if (!inScript) {
+					if (input.contains("<script")) {
+						inScript = true;
+						
+					}
+
 					if (!input.equals("") && input.charAt(input.length() - 1) != '>') {
 						htmlString += input;	
 					} else {
 						htmlString += input;
-
-						//System.out.println("HTML: "+htmlString+"\n");
 
 						HtmlData data = new HtmlData();
 						data.SetHtml(htmlString);
@@ -74,10 +77,8 @@ public class ExtractHTML {
 					}
 				}
 
-				if (input.contains("<script") && !inScript) {
-					inScript = true;
-				}
-
+				// If input initiated a script by seeing a <script> tag
+				// Don't recieve upcoming inputs until script it closed.
 				if (input.contains("</script>") && inScript) {
 					inScript = false;
 				}
@@ -193,7 +194,8 @@ public class ExtractHTML {
 		while (tagMatch.find()) {
 			hasClosingTag = false;
 			htmlTag = tagMatch.group(0).toString();
-
+			
+			// Ensure the HTML tag isn't a comment.
 			if (htmlTag.charAt(1) != '!') {
 				if (htmlTag.charAt(htmlTag.length() - 2) == '/') {
 					hasClosingTag = true;
@@ -246,14 +248,14 @@ public class ExtractHTML {
 		outputWriter.append("============================= LINKS =============================\r\n");
 		outputWriter.append(linkBuilder.toString());
 		outputWriter.append("\r\n\r\n============================= HTML ==============================\r\n");
-		
+
 		// Reformat the HTML tag output to have a maximum of 85 characters
 		// per line to improve readability in the output text file.
 		while (charPerLine + 85 < tagBuilder.length() && 
 						(charPerLine = tagBuilder.lastIndexOf(">", charPerLine + 85)) != -1) {
 			tagBuilder.replace(charPerLine, charPerLine + 1, ">\r\n");
 		}
-		
+
 		outputWriter.append(tagBuilder.toString());
 		outputWriter.append("\r\n\r\n=========================== SEQUENCES ===========================\r\n");
 		outputWriter.append(sequenceBuilder.toString());
@@ -296,8 +298,10 @@ public class ExtractHTML {
 
 		} catch (MalformedURLException e) {
 			System.out.println("ERROR: Problem with the URL of the website.");
+			//e.printStackTrace();
 		} catch (IOException e) {
 			System.out.println("ERROR: I/O exception.");
+			//e.printStackTrace();
 		}
 	}
 }
