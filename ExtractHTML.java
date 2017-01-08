@@ -21,10 +21,15 @@ import java.util.regex.Matcher;
 
 public class ExtractHTML {
 
+	/* StringBuilders to hold data of HTML extraction. */
 	private static StringBuilder linkBuilder;
 	private static StringBuilder tagBuilder;
 	private static StringBuilder sequenceBuilder;
 
+	/**************************************************************************************
+	 * Check if the website URL given from the first argument is a valid HTTP or HTTPS
+	 * wesbite. If no transport protocol is provided, include the protocol 'http'. 
+	 */
 	private static String CheckWebsiteURL (String websiteURL) {
 		String newURL = websiteURL;
 
@@ -35,17 +40,21 @@ public class ExtractHTML {
 		return newURL;
 	}
 
+	/**************************************************************************************
+	 * Read the input stream from the URL connection and remove all the leading and
+	 * trailing whitespaces. Ensure if the HTML line is wrapped in another line, it 
+	 * will be appended to the origin of the correlating HTML tag. Adds all HTML 
+	 * lines to an ArrayList to organize original structure and easily get specified 
+	 * HTML lines.
+	 */
 	private static ArrayList<HtmlData> ConstructHtmlString (BufferedReader urlReader) throws IOException {
 		String htmlString = new String();
 		String input;
 		ArrayList<HtmlData> htmlDataList = new ArrayList<HtmlData>();
 
 		while ((input = urlReader.readLine()) != null) {
-			//System.out.println(input);
 			if (!input.equals("")) {
 				input = input.replaceAll("^\\s+", "").replaceAll("\\s+$", "");
-
-				//System.out.println("--OVER HERE--\'"+input+"\'--OVER HERE--\n\n");
 
 				if (!input.equals("") && input.charAt(input.length() - 1) != '>') {
 					htmlString += input;	
@@ -62,7 +71,11 @@ public class ExtractHTML {
 
 		return htmlDataList;
 	}
-
+	
+	/**************************************************************************************
+	 * Validate the website link string to check if the given string input is a valid
+	 * website link. Used by FindLinks() as a validation when going through HTML lines.
+	 */
 	private static boolean ValidateWebsiteLinks (String htmlLink) {
 		try {
 			URL linkURL = new URL(htmlLink);
@@ -72,6 +85,12 @@ public class ExtractHTML {
 		}
 	}
 
+	/**************************************************************************************
+	 * Split the HTML line with a regex to only recieve data that are between quotation
+	 * marks. Then call the ValidateWebsiteLink() to validate if the split string is a
+	 * valid website link. The linkBuilder is appende with the website links founded
+	 * from the HTML line.
+	 */
 	private static void FindLinks (String htmlLine) {
 		String htmlLink;
 		Pattern	linkRegex = Pattern.compile("\"(.*?)\"", Pattern.CASE_INSENSITIVE);
@@ -80,38 +99,38 @@ public class ExtractHTML {
 		while (linkMatch.find()) {
 			htmlLink = linkMatch.group(1).toString();
 
-			//System.out.println("FOUND: \'"+htmlLink+"\'");
-
 			if (ValidateWebsiteLinks(htmlLink)) {
-				//System.out.println("LINK : \'"+htmlLink+"\'");
 				linkBuilder.append(htmlLink+"\r\n");
 			}
 		}
 	}
 
+	/**************************************************************************************
+	 * Split the HTML line with a regex to only recieve the data outside of HTML tags.
+	 * Then the regex result is split to check each word if it starts with an uppercase
+	 * letter. When a capatalized word is found, append it to the sequence string and
+	 * increment the sequenceSize. A valid sequence is when the sequenceSize is greater
+	 * than two words. The sequenceBuilder is appended with the sequences founded from the
+	 * HTML line.
+	 */
 	private static void FindSequences (String htmlLine) {
 		int sequenceSize;
 		String sequence;
-		LinkedList<String> validSequence = new LinkedList<String>();
 
-		// Go through all the text between HTML tags
+		// Go through all the text between HTML tags and check if the words
+		// in each HTML line is capatalized and valid for a sequence.
 		for (String sentence : htmlLine.split("<[^>]+>")) {
 			sequence = new String();
 			sequenceSize = 0;
-			//System.out.println("SENTENCE: \'"+sentence+"\'");
-			// Go through each word in a valid text line.
+			
 			for (String word : sentence.split("[~`,./<>?;':/[/]{}!@#$%^()-/_\\|\\s]")) {
 				if (!word.equals("")) {
 					if (Character.isUpperCase(word.charAt(0)) && word.length() > 1) {
-						//System.out.println("WORD: \'"+word+"\'");
 						sequence += word + " ";
 						sequenceSize++;
 					} else {
-						//System.out.println("NOT WORD: \'"+word+"\'");
-
 						if (sequenceSize > 1) {
 							sequenceBuilder.append(sequence+"\r\n");
-							//System.out.println("VALID: \'"+sequence+"\'");
 						}
 						sequence = "";
 						sequenceSize = 0;
@@ -119,13 +138,20 @@ public class ExtractHTML {
 				}
 			}
 
+			// Check if the remaining sequence is valid and append it to 
+			// the StringBuilder of possible sequences.
 			if (sequenceSize > 1) {
 				sequenceBuilder.append(sequence+"\r\n");
-				//System.out.println("VALID: \'"+sequence+"\'");
 			}
 		}
 	}
 
+	/**************************************************************************************
+	 * Split the HTML line using a regex that extracts the data between the '<' and '>'.
+	 * Split the string to only recieve the name of the HTML tag and reformat the tag
+	 * if there is a forward-flash at the end of the tag after the split. The tagBuilder
+	 * is appended with all the HTML tags founds from the current HTML line.
+	 */
 	private static void FindTags (String htmlLine) {
 		String htmlTag;
 		boolean hasClosingTag = false;
@@ -150,27 +176,34 @@ public class ExtractHTML {
 					htmlTag += ">";
 				}
 				tagBuilder.append(htmlTag);
-				//System.out.println("FOUND: "+htmlTag);
 			}
 		}
 	}
 
+	/**************************************************************************************
+	 * Iterate through the ArrayList of HTML lines and find the links, sequences, and
+	 * tags for each line. 
+	 */
 	private static void ParseHtml (ArrayList<HtmlData> htmlDataList) {
 		int lslens = htmlDataList.size();
 		String htmlLine;
 
 		for (int i = 0; i < lslens; i++) {
 			htmlLine = htmlDataList.get(i).GetHtml();
-			//System.out.println(htmlLine+"|END|");
 
 			FindLinks(htmlLine);
 			FindSequences(htmlLine);
 			FindTags(htmlLine);
-
-			//System.out.println("\n");
 		}
 	}
 
+	/**************************************************************************************
+	 * Write the results after parsing through the HTML document into an output file
+	 * with the given name from the second argument passed into the program (args[1]).
+	 * The StringBuilders (linkBuilder, tagBuilder, and sequenceBuilder) will be 
+	 * appended to the output text file. The use of '\r\n' is to create a new line in
+	 * the output text file for Windows applications (Notepad) that opens the text file.
+	 */
 	private static void WriteToFile (String outputFileName) throws IOException {
 		int charPerLine = 0;
 		int totalTagLength = tagBuilder.length();
@@ -180,6 +213,8 @@ public class ExtractHTML {
 		outputWriter.append(linkBuilder.toString());
 		outputWriter.append("\r\n\r\n============================= HTML ==============================\r\n\r\n");
 		
+		// Reformat the HTML tag output to have a maximum of 85 characters
+		// per line to improve readability in the output text file.
 		while (charPerLine + 85 < tagBuilder.length() && 
 						(charPerLine = tagBuilder.lastIndexOf(">", charPerLine + 85)) != -1) {
 			tagBuilder.replace(charPerLine, charPerLine + 1, ">\r\n");
@@ -191,10 +226,17 @@ public class ExtractHTML {
 
 		outputWriter.close();
 	}
-	
+
+	/**************************************************************************************
+	 * Main function that takes in two arguments as input for URL connection and output
+	 * file destination (args[0] = HTML Website URL | args[1] = output file name). A URL
+	 * connection will be established to get the InputStream and read the HTML website
+	 * for it's HTML document.
+	 */
+
 	public static void main (String[] args) {
-		String htmlString;
 		String website = args[0];
+		String htmlString;
 		String outputFileName = args[1];
 		ArrayList<HtmlData> htmlDataList;
 
