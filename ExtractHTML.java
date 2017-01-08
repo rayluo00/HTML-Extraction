@@ -48,23 +48,38 @@ public class ExtractHTML {
 	 * HTML lines.
 	 */
 	private static ArrayList<HtmlData> ConstructHtmlString (BufferedReader urlReader) throws IOException {
-		String htmlString = new String();
 		String input;
+		String htmlString = "";
+		boolean inScript = false;
 		ArrayList<HtmlData> htmlDataList = new ArrayList<HtmlData>();
 
 		while ((input = urlReader.readLine()) != null) {
 			if (!input.equals("")) {
 				input = input.replaceAll("^\\s+", "").replaceAll("\\s+$", "");
 
-				if (!input.equals("") && input.charAt(input.length() - 1) != '>') {
-					htmlString += input;	
-				} else {
-					htmlString += input;
+				//System.out.println("INPUT: "+input+"\n\n");
 
-					HtmlData data = new HtmlData();
-					data.SetHtml(htmlString);
-					htmlDataList.add(data);
-					htmlString = "";
+				if (!inScript) {
+					if (!input.equals("") && input.charAt(input.length() - 1) != '>') {
+						htmlString += input;	
+					} else {
+						htmlString += input;
+
+						//System.out.println("HTML: "+htmlString+"\n");
+
+						HtmlData data = new HtmlData();
+						data.SetHtml(htmlString);
+						htmlDataList.add(data);
+						htmlString = "";
+					}
+				}
+
+				if (input.contains("<script") && !inScript) {
+					inScript = true;
+				}
+
+				if (input.contains("</script>") && inScript) {
+					inScript = false;
 				}
 			}
 		}
@@ -106,6 +121,22 @@ public class ExtractHTML {
 	}
 
 	/**************************************************************************************
+	 * Remove any punctuations from the String word that is used by the FindSequence()
+	 * method. 
+	 */
+	private static String RemovePunctuations (String word) {
+		String newWord = "";
+
+		for (Character letter : word.toCharArray()) {
+			if (Character.isLetterOrDigit(letter)) {
+				newWord += letter;
+			}
+		}
+
+		return newWord;
+	}
+
+	/**************************************************************************************
 	 * Split the HTML line with a regex to only recieve the data outside of HTML tags.
 	 * Then the regex result is split to check each word if it starts with an uppercase
 	 * letter. When a capatalized word is found, append it to the sequence string and
@@ -125,7 +156,8 @@ public class ExtractHTML {
 			
 			for (String word : sentence.split("[~`,./<>?;':/[/]{}!@#$%^()-/_\\|\\s]")) {
 				if (!word.equals("")) {
-					if (Character.isUpperCase(word.charAt(0)) && word.length() > 1) {
+					if (word.length() > 1 && Character.isUpperCase(word.charAt(0))) {
+						word = RemovePunctuations(word);
 						sequence += word + " ";
 						sequenceSize++;
 					} else {
@@ -154,12 +186,13 @@ public class ExtractHTML {
 	 */
 	private static void FindTags (String htmlLine) {
 		String htmlTag;
-		boolean hasClosingTag = false;
+		boolean hasClosingTag;
 		Pattern tagRegex = Pattern.compile("<(.)*?>", Pattern.CASE_INSENSITIVE);
 		Matcher tagMatch = tagRegex.matcher(htmlLine);
-		
+
 		while (tagMatch.find()) {
-			htmlTag = tagMatch.group().toString();
+			hasClosingTag = false;
+			htmlTag = tagMatch.group(0).toString();
 
 			if (htmlTag.charAt(1) != '!') {
 				if (htmlTag.charAt(htmlTag.length() - 2) == '/') {
@@ -175,6 +208,7 @@ public class ExtractHTML {
 
 					htmlTag += ">";
 				}
+
 				tagBuilder.append(htmlTag);
 			}
 		}
@@ -209,9 +243,9 @@ public class ExtractHTML {
 		int totalTagLength = tagBuilder.length();
 		PrintWriter outputWriter = new PrintWriter(new FileWriter(outputFileName));
 
-		outputWriter.append("============================= LINKS =============================\r\n\r\n");
+		outputWriter.append("============================= LINKS =============================\r\n");
 		outputWriter.append(linkBuilder.toString());
-		outputWriter.append("\r\n\r\n============================= HTML ==============================\r\n\r\n");
+		outputWriter.append("\r\n\r\n============================= HTML ==============================\r\n");
 		
 		// Reformat the HTML tag output to have a maximum of 85 characters
 		// per line to improve readability in the output text file.
@@ -221,7 +255,7 @@ public class ExtractHTML {
 		}
 		
 		outputWriter.append(tagBuilder.toString());
-		outputWriter.append("\r\n\r\n=========================== SEQUENCES ===========================\r\n\r\n");
+		outputWriter.append("\r\n\r\n=========================== SEQUENCES ===========================\r\n");
 		outputWriter.append(sequenceBuilder.toString());
 
 		outputWriter.close();
@@ -259,7 +293,6 @@ public class ExtractHTML {
 
 			ParseHtml(htmlDataList);
 			WriteToFile(outputFileName);
-			System.out.println("Program completed.");
 
 		} catch (MalformedURLException e) {
 			System.out.println("ERROR: Problem with the URL of the website.");
