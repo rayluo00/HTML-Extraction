@@ -55,11 +55,9 @@ public class ExtractHTML {
 
 		while ((input = urlReader.readLine()) != null) {
 			if (!input.equals("")) {
-				// Remove white space from HTML line and filter out the scripts.
+				// Remove white space from HTML line and filter out the script codes.
 				input = input.trim();
 				input = input.replaceAll("<\\s*script[^>]*>(.*?)<\\s*/\\s*script>", "<script></script>");
-
-				//System.out.println(input+"\n\n");
 
 				if (!inScript) {
 					if (input.contains("<script")) {
@@ -70,8 +68,6 @@ public class ExtractHTML {
 						htmlString += input+" ";	
 					} else {
 						htmlString += input+" ";
-
-						//System.out.println(htmlString+"\n\n");
 
 						HtmlData data = new HtmlData();
 						data.SetHtml(htmlString);
@@ -209,7 +205,6 @@ public class ExtractHTML {
 					if (hasForwSlash) {
 						htmlTag += "/";
 					}
-
 					htmlTag += ">";
 				}
 
@@ -280,7 +275,6 @@ public class ExtractHTML {
 	 * connection will be established to get the InputStream and read the HTML website
 	 * for it's HTML document.
 	 */
-
 	public static void main (String[] args) {
 		//File outputDir = new File("OutputTxtFiles");
 		String website = args[0];
@@ -296,8 +290,8 @@ public class ExtractHTML {
 		System.out.println("Connect to: "+website+"\n");
 		
 		try {
-			// Uncomment code if computer can not run Makefiles to create
-			// the output directory 'OutputTxtFiles'.
+			// Uncomment code blow if computer can not run Makefiles to create
+			// the output directory 'OutputTxtFiles'. And 'outputDir' variable.
 
 			/*if (!outputDir.exists()) {
 				mkdir(outputDir);
@@ -309,7 +303,6 @@ public class ExtractHTML {
 							new InputStreamReader(urlConnection.getInputStream()));
 			
 			htmlDataList = ConstructHtmlString(urlReader);
-
 			urlReader.close();
 
 			ParseHtml(htmlDataList);
