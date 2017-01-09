@@ -1,6 +1,6 @@
 ============================= LINKS =============================
-https://destroyallsoftware-talks.s3.amazonaws.com/wat.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAIKRVCECXBC4ZGHIQ%2F20170109%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20170109T005721Z&amp;X-Amz-Expires=14400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=7502229e56a1ab95cc60a010512f6a0a580511e39c626ab17d6df03f69e51ed9
-https://destroyallsoftware-talks.s3.amazonaws.com/wat.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAIKRVCECXBC4ZGHIQ%2F20170109%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20170109T005721Z&amp;X-Amz-Expires=14400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=7502229e56a1ab95cc60a010512f6a0a580511e39c626ab17d6df03f69e51ed9
+https://destroyallsoftware-talks.s3.amazonaws.com/wat.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAIKRVCECXBC4ZGHIQ%2F20170109%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20170109T010636Z&amp;X-Amz-Expires=14400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=aa42a3aeaef56e6281b2d062044898077ef04d2a07dad7c2db493622124e1fa6
+https://destroyallsoftware-talks.s3.amazonaws.com/wat.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAIKRVCECXBC4ZGHIQ%2F20170109%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20170109T010636Z&amp;X-Amz-Expires=14400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=aa42a3aeaef56e6281b2d062044898077ef04d2a07dad7c2db493622124e1fa6
 
 
 ============================= HTML ==============================

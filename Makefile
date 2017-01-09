@@ -26,5 +26,5 @@ run:
 	java ExtractHTML https://aws.amazon.com aws_output.txt
 	java ExtractHTML ebay.com ebay_output.txt
 	java ExtractHTML https://yelp.com yelp_output.txt
-	java ExtractHTML https://www.reddit.com reddit_output.txt
+	java ExtractHTML https://www.linkedin.com linkedin_output.txt
 	@echo "Program finished."
