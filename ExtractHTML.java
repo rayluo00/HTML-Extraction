@@ -56,8 +56,10 @@ public class ExtractHTML {
 		while ((input = urlReader.readLine()) != null) {
 			if (!input.equals("")) {
 				// Remove white space from HTML line and filter out the scripts.
-				input = input.replaceAll("^\\s+", "").replaceAll("\\s+$", "");
+				input = input.trim();
 				input = input.replaceAll("<\\s*script[^>]*>(.*?)<\\s*/\\s*script>", "<script></script>");
+
+				//System.out.println(input+"\n\n");
 
 				if (!inScript) {
 					if (input.contains("<script")) {
@@ -65,9 +67,11 @@ public class ExtractHTML {
 					}
 
 					if (!input.equals("") && input.charAt(input.length() - 1) != '>') {
-						htmlString += input;	
+						htmlString += input+" ";	
 					} else {
-						htmlString += input;
+						htmlString += input+" ";
+
+						//System.out.println(htmlString+"\n\n");
 
 						HtmlData data = new HtmlData();
 						data.SetHtml(htmlString);
@@ -185,24 +189,24 @@ public class ExtractHTML {
 	 */
 	private static void FindTags (String htmlLine) {
 		String htmlTag;
-		boolean hasClosingTag;
+		boolean hasForwSlash;
 		Pattern tagRegex = Pattern.compile("<(.)*?>", Pattern.CASE_INSENSITIVE);
 		Matcher tagMatch = tagRegex.matcher(htmlLine);
 
 		while (tagMatch.find()) {
-			hasClosingTag = false;
+			hasForwSlash = false;
 			htmlTag = tagMatch.group(0).toString();
 			
 			// Ensure the HTML tag isn't a comment.
 			if (htmlTag.charAt(1) != '!') {
 				if (htmlTag.charAt(htmlTag.length() - 2) == '/') {
-					hasClosingTag = true;
+					hasForwSlash = true;
 				}
 
 				htmlTag = htmlTag.split("\\s+")[0];
 
 				if (htmlTag.charAt(htmlTag.length() - 1) != '>') {
-					if (hasClosingTag) {
+					if (hasForwSlash) {
 						htmlTag += "/";
 					}
 
@@ -238,27 +242,36 @@ public class ExtractHTML {
 	 * appended to the output text file. The use of '\r\n' is to create a new line in
 	 * the output text file for Windows applications (Notepad) that opens the text file.
 	 */
-	private static void WriteToFile (String outputFileName) throws IOException {
+	private static void WriteToFile (String outputFileName) {
 		int charPerLine = 0;
 		int totalTagLength = tagBuilder.length();
-		PrintWriter outputWriter = new PrintWriter(new FileWriter(outputFileName));
 
-		outputWriter.append("============================= LINKS =============================\r\n");
-		outputWriter.append(linkBuilder.toString());
-		outputWriter.append("\r\n\r\n============================= HTML ==============================\r\n");
+		try {
+			PrintWriter outputWriter = new PrintWriter(new FileWriter("./OutputTxtFiles/"+outputFileName));
 
-		// Reformat the HTML tag output to have a maximum of 85 characters
-		// per line to improve readability in the output text file.
-		while (charPerLine + 85 < tagBuilder.length() && 
-						(charPerLine = tagBuilder.lastIndexOf(">", charPerLine + 85)) != -1) {
-			tagBuilder.replace(charPerLine, charPerLine + 1, ">\r\n");
+			outputWriter.append("============================= LINKS =============================\r\n");
+			outputWriter.append(linkBuilder.toString());
+			outputWriter.append("\r\n\r\n============================= HTML ==============================\r\n");
+
+			// Reformat the HTML tag output to have a maximum of 85 characters
+			// per line to improve readability in the output text file.
+			while (charPerLine + 85 < tagBuilder.length() && 
+							(charPerLine = tagBuilder.lastIndexOf(">", charPerLine + 85)) != -1) {
+				tagBuilder.replace(charPerLine, charPerLine + 1, ">\r\n");
+			}
+
+			outputWriter.append(tagBuilder.toString());
+			outputWriter.append("\r\n\r\n=========================== SEQUENCES ===========================\r\n");
+			outputWriter.append(sequenceBuilder.toString());
+
+			outputWriter.close();
+		} catch (FileNotFoundException e) {
+			System.out.println("ERROR: Unable to locate the directory or file.");
+			//e.printStackTrace();
+		} catch (IOException e) {
+			System.out.println("ERROR: I/O exception when writing into text file.");
+			//e.printStackTrace();
 		}
-
-		outputWriter.append(tagBuilder.toString());
-		outputWriter.append("\r\n\r\n=========================== SEQUENCES ===========================\r\n");
-		outputWriter.append(sequenceBuilder.toString());
-
-		outputWriter.close();
 	}
 
 	/**************************************************************************************
@@ -269,6 +282,7 @@ public class ExtractHTML {
 	 */
 
 	public static void main (String[] args) {
+		//File outputDir = new File("OutputTxtFiles");
 		String website = args[0];
 		String htmlString;
 		String outputFileName = args[1];
@@ -282,6 +296,13 @@ public class ExtractHTML {
 		System.out.println("Connect to: "+website+"\n");
 		
 		try {
+			// Uncomment code if computer can not run Makefiles to create
+			// the output directory 'OutputTxtFiles'.
+
+			/*if (!outputDir.exists()) {
+				mkdir(outputDir);
+			}*/
+
 			URL siteUrl = new URL(website);
 			URLConnection urlConnection = siteUrl.openConnection();
 			BufferedReader urlReader = new BufferedReader(
@@ -295,10 +316,16 @@ public class ExtractHTML {
 			WriteToFile(outputFileName);
 
 		} catch (MalformedURLException e) {
-			System.out.println("ERROR: Problem with the URL of the website.");
+			System.out.println("ERROR: Problem with the URL of the website.\n");
 			//e.printStackTrace();
 		} catch (IOException e) {
-			System.out.println("ERROR: I/O exception.");
+			System.out.println("ERROR: Website server issue.\n");
+			//e.printStackTrace();
+		} catch (SecurityException e) {
+			System.out.println("ERROR: Can not create the output directory.\n");
+			//e.printStackTrace();
+		} catch (NullPointerException e) {
+			System.out.println("ERROR: Reading from a input stream that is a null pointer.\n");
 			//e.printStackTrace();
 		}
 	}

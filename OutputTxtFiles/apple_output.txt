@@ -1,0 +1,214 @@
+============================= LINKS =============================
+http://www.w3.org/1999/xhtml
+http://www.apple.com/
+http://www.apple.com/
+http://www.apple.com/ae-ar/
+http://www.apple.com/ae/
+http://www.apple.com/am/
+http://www.apple.com/at/
+http://www.apple.com/au/
+http://www.apple.com/befr/
+http://www.apple.com/benl/
+http://www.apple.com/bg/
+http://www.apple.com/bh/
+http://www.apple.com/br/
+http://www.apple.com/bw/
+http://www.apple.com/ca/
+http://www.apple.com/ca/fr/
+http://www.apple.com/cf/
+http://www.apple.com/chde/
+http://www.apple.com/chfr/
+http://www.apple.com/ci/
+http://www.apple.com/cl/
+http://www.apple.com/cm/
+http://www.apple.com/cn/
+http://www.apple.com/co/
+http://www.apple.com/cz/
+http://www.apple.com/de/
+http://www.apple.com/dk/
+http://www.apple.com/ee/
+http://www.apple.com/eg/
+http://www.apple.com/es/
+http://www.apple.com/fi/
+http://www.apple.com/fr/
+http://www.apple.com/gn/
+http://www.apple.com/gq/
+http://www.apple.com/gr/
+http://www.apple.com/gw/
+http://www.apple.com/hk/
+http://www.apple.com/hk/en/
+http://www.apple.com/hr/
+http://www.apple.com/hu/
+http://www.apple.com/id/
+http://www.apple.com/ie/
+http://www.apple.com/il/
+http://www.apple.com/in/
+http://www.apple.com/it/
+http://www.apple.com/jo/
+http://www.apple.com/jp/
+http://www.apple.com/ke/
+http://www.apple.com/kr/
+http://www.apple.com/kw/
+http://www.apple.com/la/
+http://www.apple.com/lae/
+http://www.apple.com/li/
+http://www.apple.com/lt/
+http://www.apple.com/lu/
+http://www.apple.com/lv/
+http://www.apple.com/ma/
+http://www.apple.com/md/
+http://www.apple.com/me/
+http://www.apple.com/mg/
+http://www.apple.com/mk/
+http://www.apple.com/ml/
+http://www.apple.com/mo/
+http://www.apple.com/mt/
+http://www.apple.com/mu/
+http://www.apple.com/mx/
+http://www.apple.com/my/
+http://www.apple.com/mz/
+http://www.apple.com/ne/
+http://www.apple.com/ng/
+http://www.apple.com/nl/
+http://www.apple.com/no/
+http://www.apple.com/nz/
+http://www.apple.com/om/
+http://www.apple.com/ph/
+http://www.apple.com/pl/
+http://www.apple.com/pt/
+http://www.apple.com/qa/
+http://www.apple.com/ro/
+http://www.apple.com/ru/
+http://www.apple.com/sa/
+http://www.apple.com/se/
+http://www.apple.com/sg/
+http://www.apple.com/si/
+http://www.apple.com/sk/
+http://www.apple.com/sn/
+http://www.apple.com/th/
+http://www.apple.com/tn/
+http://www.apple.com/tr/
+http://www.apple.com/tw/
+http://www.apple.com/ug/
+http://www.apple.com/uk/
+http://www.apple.com/vn/
+http://www.apple.com/za/
+http://www.apple.com/
+https://www.apple.com/ac/structured-data/images/open_graph_logo.png?201612081039
+http://www.apple.com/
+http://www.apple.com/sitemap/
+http://images.apple.com/v/home/cz/built/styles/main.built.css
+https://support.apple.com
+https://itunes.apple.com/app/apple-store/id375380948?pt&#x3D;2003&amp;ct&#x3D;footer&amp;mt&#x3D;8
+https://appleid.apple.com/us/
+https://www.icloud.com
+http://investor.apple.com
+https://locate.apple.com/
+
+
+============================= HTML ==============================
+<html><head><meta/><meta/><meta/><link/><link/><link/><link/><link/><link/><link/>
+<link/><link/><link/><link/><link/><link/><link/><link/><link/><link/><link/>
+<link/><link/><link/><link/><link/><link/><link/><link/><link/><link/><link/>
+<link/><link/><link/><link/><link/><link/><link/><link/><link/><link/><link/>
+<link/><link/><link/><link/><link/><link/><link/><link/><link/><link/><link/>
+<link/><link/><link/><link/><link/><link/><link/><link/><link/><link/><link/>
+<link/><link/><link/><link/><link/><link/><link/><link/><link/><link/><link/>
+<link/><link/><link/><link/><link/><link/><link/><link/><link/><link/><link/>
+<link/><link/><link/><link/><link/><link/><link/><link/><link/><meta/><link/>
+<link/><link/><title></title><meta/><meta/><meta/><meta/><meta/><meta/><meta/>
+<meta/><meta/><meta/><meta/><meta/><meta/><meta/><link/><link/><link/><link/>
+<link/><script></script></head><body><meta/><aside></aside><input/><nav><div><ul>
+<li><label><span><span></span></span><span><span></span></span></label><a><span>
+</span></a><a><span></span></a></li><li><a><span></span></a></li><li><a><span>
+</span><span></span></a><span></span></li></ul><ul><li><a><span></span></a></li>
+<li><a><span></span></a></li><li><a><span></span></a></li><li><a><span></span></a>
+</li><li><a><span></span></a></li><li><a><span></span></a></li><li><a><span></span>
+</a></li><li><a><span></span></a></li><li><a><span></span></a></li><li><a><span>
+</span><span></span></a><span></span></li></ul><aside><div><form><div><input/>
+<input/><button></button><button></button></div></form><aside></aside></div>
+<button><span><span></span><span></span></span></button></aside><aside><div><span>
+</span></div><div></div></aside></div></nav><div></div><div></div><script></script>
+<script></script><script></script><main><article><div><nav><ul><li><button><span>
+</span></button></li><li><button><span></span></button></li></ul></nav><nav><ul>
+<li><a><div><span></span><span></span></div></a></li><li><a><div><span></span>
+<span></span></div></a></li><li><a><div><span></span><span></span></div></a></li>
+</ul></nav><div><a><div><div><h1><span></span></h1><h2></h2></div></div><figure>
+</figure></a><a><div><h1><span></span></h1><h2></h2></div><figure></figure></a><a>
+<div><div><div><h1><span></span></h1><h2></h2></div></div></div><figure></figure>
+</a></div></div></article><section><ul><li><a><span></span></a></li><li><a><span>
+</span></a></li><li><a><span></span></a></li><li><a><span></span></a></li></ul>
+</section></main><footer><div><h2></h2><nav><div><input/><div><label><h3></h3>
+</label><a><span></span></a><a><span></span></a><ul><li><a></a></li><li><a></a>
+</li><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a>
+</li><li><a></a></li><li><a></a></li><li><a></a></li></ul></div></div><div><input/>
+<div><label><h3></h3></label><a><span></span></a><a><span></span></a><ul><li><a>
+</a></li><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li><li><a>
+</a></li><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li></ul>
+</div></div><div><input/><div><label><h3></h3></label><a><span></span></a><a><span>
+</span></a><ul><li><a></a></li><li><a></a></li></ul></div><input/><div><label><h3>
+</h3></label><a><span></span></a><a><span></span></a><ul><li><a></a></li><li><a>
+</a></li></ul></div></div><div><input/><div><label><h3></h3></label><a><span>
+</span></a><a><span></span></a><ul><li><a></a></li><li><a></a></li><li><a></a></li>
+</ul></div><input/><div><label><h3></h3></label><a><span></span></a><a><span>
+</span></a><ul><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li><li>
+<a></a></li><li><a></a></li></ul></div></div><div><input/><div><label><h3></h3>
+</label><a><span></span></a><a><span></span></a><ul><li><a></a></li><li><a></a>
+</li><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a>
+</li></ul></div></div></nav><section><div><a></a><span><a></a></span></div><div><a>
+<span></span></a></div><div><div></div><div><a></a><a></a><a></a><a></a><a></a>
+</div></div></section><script></script><script></div></footer><script><script>
+<script></script></body></html>
+
+=========================== SEQUENCES ===========================
+Open Menu 
+Close Menu 
+Shopping Bag 
+Shopping Bag 
+Apple Watch Series 
+MacBook Pro 
+Apple Watch Series 
+Introducing Series 
+MacBook Pro 
+Pro Super Computer 
+Airpods Wireless Effortless Magical 
+Apple TV The 
+Apple Footer 
+Open Menu 
+Close Menu 
+Gift Cards 
+Apple Store 
+Open Menu 
+Close Menu 
+Genius Bar 
+Youth Programs 
+Apple Store App 
+Order Status 
+Shopping Help 
+For Education 
+Open Menu 
+Close Menu 
+For Business 
+Open Menu 
+Close Menu 
+Open Menu 
+Close Menu 
+Manage Your Apple ID 
+Apple Store Account 
+Apple Values 
+Open Menu 
+Close Menu 
+Supplier Responsibility 
+About Apple 
+Open Menu 
+Close Menu 
+Apple Info 
+Job Opportunities 
+Press Info 
+Contact Apple 
+Apple Store 
+MY APPLE 
+United States 
+Apple Inc All 
+Privacy Policy 
+Site Map 

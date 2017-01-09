@@ -1,0 +1,57 @@
+============================= LINKS =============================
+http://what-if.xkcd.com
+http://blag.xkcd.com
+http://store.xkcd.com/
+https://store.xkcd.com/
+https://store.xkcd.com/collections/featured
+https://store.xkcd.com/
+https://store.xkcd.com/collections/posters
+https://store.xkcd.com/collections/everything
+http://threewordphrase.com/
+http://www.smbc-comics.com/
+http://www.qwantz.com
+http://oglaf.com/
+http://www.asofterworld.com
+http://buttersafe.com/
+http://pbfcomics.com/
+http://questionablecontent.net/
+http://www.buttercupfestival.com/
+http://www.mspaintadventures.com/?s=6&p=001901
+http://www.jspowerhour.com/
+http://creativecommons.org/licenses/by-nc/2.5/
+
+
+============================= HTML ==============================
+<html><head><link/><title></title><meta/><link/><link/><link/><link/><script><script>
+</script><script></script></head><body><div><div><ul><li><a></a></li><li><a></a>
+</li><li><a></a></li><li><a></a></li><li><a></a></li></ul></div><div><div><span><a>
+<img/></a></span><span><br/></span></div><div><a><img></a><br/><script><div><a></a>
+<a></a><br/><a></a><a></a></div></div></div><div></div><div></div></div><div><div>
+</div><ul><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li><li><a>
+</a></li></ul><div><img/></div><ul><li><a></a></li><li><a></a></li><li><a></a></li>
+<li><a></a></li><li><a></a></li></ul><br/><br/><div></div></div><div><img/><map>
+<area/><area/><area/><area/><area/></map><div></script><script></script><form><div>
+<input/><input/><input/><input/></div></form><script></script><a></a><a></a></div>
+<br/><div><br/><a></a><a></a><a></a><a></a><a></a><a></a><a></a><a></a><a></a><a>
+</a><a></a></div><br/><center><div></div></center><div><p><a></a></p><p><a></a></p>
+</div></div></body></html>
+
+=========================== SEQUENCES ===========================
+Team Chat 
+What If 
+Team Chat 
+Image URL 
+RSS Feed 
+Atom Feed 
+Three Word Phrase 
+Dinosaur Comics 
+Softer World 
+Perry Bible Fellowship 
+Questionable Content 
+Buttercup Festival 
+Junior Scientist Power Hour 
+Netscape Navigator 
+Apple IIGS 
+Airplane Mode 
+Boat Mode For 
+Creative Commons Attribution NonCommercial 

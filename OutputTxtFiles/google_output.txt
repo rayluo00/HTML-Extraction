@@ -1,0 +1,34 @@
+============================= LINKS =============================
+http://schema.org/WebPage
+http://www.google.com/imghp?hl=en&tab=wi
+http://maps.google.com/maps?hl=en&tab=wl
+https://play.google.com/?hl=en&tab=w8
+http://www.youtube.com/?tab=w1
+http://news.google.com/nwshp?hl=en&tab=wn
+https://mail.google.com/mail/?tab=wm
+https://drive.google.com/?tab=wo
+https://www.google.com/intl/en/options/
+http://www.google.com/history/optout?hl=en
+https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=http://www.google.com/
+https://plus.google.com/116899029375914044550
+
+
+============================= HTML ==============================
+<html><head><meta><meta><meta><meta><title></title><script></script><style></style>
+<style></style><script></script><link></head><body><script></script><div><div>
+<nobr><b></b><a></a><a></a><a></a><a></a><a></a><a></a><a></a><a><u></u></a></nobr>
+</div><div><nobr><span></span><span></span><span></span><a></a><a></a><a></a>
+</nobr></div><div></div><div></div></div><center><br><div><img><br><br></div><form>
+<table><tr><td></td><td><input><input><input><input><input><div><input></div><br>
+<span><span><input></span></span><span><span><input></span></span></td><td><a></a>
+<a></a></td></tr></table><input></form><div></div><div><br></div><span><div><div>
+<a></a><a></a><a></a><a></a></div></div><p><a></a><a></a></p></span></center>
+<script></script><div></div><div><script></script></div></body></html>
+
+=========================== SEQUENCES ===========================
+Web History 
+Business Solutions 
+About Google 
+US NvgIAsLVyEw 
+US NvgIAsLVyEw 
+Feeling Lucky 

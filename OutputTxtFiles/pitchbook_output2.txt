@@ -1,0 +1,142 @@
+============================= LINKS =============================
+http://pitchbook.com/
+http://pitchbook.com/img/social-media/facebook/PitchBook-Facebook-General.jpg?uq=lADNdxzg
+http://pitchbook.com/img/social-media/twitter/PitchBook-Twitter-CTA-General.jpg
+https://my.pitchbook.com/loginAction.do?action=websiteLoginForm
+https://my.pitchbook.com
+https://my.pitchbook.com
+http://www.linkedin.com/company/pitchbook-data-inc-
+http://twitter.com/PitchBook
+https://www.facebook.com/PitchBookData
+https://plus.google.com/+pitchbook/
+https://instagram.com/pitchbookdata/
+mailto:info@pitchbook.com
+
+
+============================= HTML ==============================
+<html><head><title></title><meta><meta/><meta/><meta/><meta/><meta/><meta><meta><meta>
+<meta><meta><meta><meta/><meta><meta/><meta/><meta/><script><link/><link/><link/>
+<script></script><script></script></head><body><div><div><img/></div><div></div>
+<div><div><div><div><span></span><p></p></div><iframe></iframe><div><a></a><a></a>
+</div></div></div><div><div><a></a><div><div></div><ul><li></li><li><div><a></a><a>
+</a></div></li><li><a></a><div><div><div><div><h2><a></a></h2></div><div><div><div>
+</div><div><a><img></a></div><div><a><img></a></div></div><div><div></div><ul><li>
+<a></a></li><li><a></a></li><li><a></a></li><li><a></a></li></ul></div><div><div>
+</div><ul><li><a></a></li><li><a></a></li></ul></div></div></div></div></div></li>
+<li><a></a><div><div><div><div><h2><a></a></h2></div><div><div><div></div><div><ul>
+<li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li></ul></div><div>
+<ul><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li></ul></div>
+</div><div><div></div><a><img></a></div></div></div></div></div></li><li><a></a>
+<div><div><div><div><h2><a></a></h2></div><div><div><div><div></div><a><img></a>
+</div><div><div></div><a><img></a></div></div><div><div></div><div><ul><li><a></a>
+</li><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li></ul></div>
+<div><ul><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li></ul>
+</div></div></div></div></div></div></li><li><a></a><div><div><div><div><h2><a></a>
+</h2></div><div><div><a><img></a></div><div><a><img></a></div><div><a><img></a>
+</div><div><a><img></a></div></div></div></div></div></li><li><a></a><div><div>
+<div><div><h2><a></a></h2></div><div><div><a><img></a></div><div><a><img></a></div>
+<div><a><img></a></div><div><ul><li><a></a></li><li><a></a></li><li><a></a></li>
+<li><a></a></li></ul></div></div></div></div></div></li></ul></div></div></div>
+</div><div><div><div><div><div><p><span></span></p><p></p><div><div><label></label>
+<div><input/></div></div><input/></div><ul><li><img></li><li><img></li><li><img>
+</li><li><img></li><li><img></li><li><img></li></ul></div></div></div></div></div>
+</div><div><div><div><img></div><div><h2></h2><p></p><a></a></div></div></div><div>
+<div><h2></h2><p></p><a></a><img></div></div><h2></h2><div><div><div><div><div>
+<img/><img/><span></span><div><div><img/></div><div><div><p></p><p><span></span>
+</p></div></div></div></div><div><img/><img/><span></span><div><div><img/></div>
+<div><div><p></p><p><span></span></p></div></div></div></div><div><img/><img/>
+<span></span><div><div><img/></div><div><div><p></p><p><span></span></p></div>
+</div></div></div><div><img/><img/><span></span><div><div><img/></div><div><div><p>
+</p><p><span></span></p></div></div></div></div><div><img/><img/><span></span><div>
+<div><img/></div><div><div><p></p><p><span></span></p></div></div></div></div><div>
+<img/><img/><span></span><div><div><img/></div><div><div><p></p><p><span></span>
+</p></div></div></div></div><div><img/><img/><span></span><div><div><img/></div>
+<div><div><p></p><p><span></span></p></div></div></div></div><div><img/><img/>
+<span></span><div><div><img/></div><div><div><p></p><p><span></span></p></div>
+</div></div></div></div><div></div></div></div></div><script><div><div><div><h2>
+</h2><a></a></div></div></div><div><div><h2></h2><div><div><a><span></span><img/>
+</a></div><div><a><span></span><img/></a></div><div><a><span></span><img/></a>
+</div><div><a><span></span><img/></a></div><div><a><span></span><img/></a></div>
+</div></div></div><div><img/><h2></h2><div><a></a></div></div><script></script>
+<div><div><div><div><ul><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a>
+</li><li><a></a></li><li><a></a></li><li><a></a></li></ul></div></div><div><div>
+<h3></h3><ul><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li><li>
+<a></a></li><li><a></a></li><li><a></a></li><li><a></a></li></ul></div></div><div>
+<div><h3></h3><ul><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li>
+<li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li>
+</ul></div></div><div><div><h3></h3><ul><li><a></a></li><li><a></a></li><li><a></a>
+</li><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a>
+</li><li><a></a></li><li><a></a></li></ul><ul><li></li><li><a></a></li><li><a></a>
+</li><li><a></a></li><li><a></a></li><li><a></a></li></ul></div></div></div><div>
+<div><div><div><div><h3></h3><p><br/><br/><br/><br/></p></div></div><div><div><h3>
+</h3><p><br/><br/><br/><br/><br/></p></div></div><div><div><h3></h3><p><br/><br/>
+<br/><br/></p></div></div><div><div><h3></h3><p><a></a></p></div></div></div><div>
+<div><p></p><ul><li><a></a></li><li><a></a></li><li><a></a></li></ul></div></div>
+</div></div></div><link/><script></script><script></script><script></script>
+<script></script><script></script><div><script></div><script><div><script></script>
+</div><noscript><div><img/></div></noscript></body></html>
+
+=========================== SEQUENCES ===========================
+MA Private Equity 
+Venture Capital Database PitchBook 
+VC PE 
+The PitchBook Platform 
+PitchBook Mobile 
+Product Overview 
+The PitchBook Platform 
+PitchBook Mobile App 
+Data Feed 
+Excel Plugins 
+Customer Success 
+Customer Testimonials 
+Investment Banks 
+Venture Capital 
+Private Equity 
+Limited Partners 
+Corporate Development 
+Law Firms 
+Accounting Firms 
+Industry News 
+Private Company Profiles 
+Our Story 
+Media Center 
+Our Partners 
+Event Calendar 
+VC PE 
+CEO John Gabbert 
+Read John 
+IoT The 
+Aya Zook Principal 
+Houser Technology Banking Group Executive Vice President 
+Division Manager 
+Wells Fargo 
+Richard Kerby 
+With PitchBook 
+Larry LaCroix 
+PitchBook Platform 
+Anthony Marraccino CFO 
+Compass Partners 
+PitchBook Platform 
+Michael Gilroy Associate 
+Canaan Partners 
+The PitchBook Platform 
+Francois Auzerais Private Capital Practice 
+Korn Ferry 
+Yanchak Business Research Manager 
+PitchBook News 
+Client Testimonials 
+US Headquarters 
+Fifth Avenue 
+Seattle WA 
+EUROPE Headquarters 
+Lector Court 
+Farringdon Road 
+London EC1R 
+United Kingdom 
+NEW YORK 
+Fifth Avenue 
+New York NY 
+GENERAL INQUIRIES 
+PitchBook Data All 
+Site Map 
+Privacy Policy 

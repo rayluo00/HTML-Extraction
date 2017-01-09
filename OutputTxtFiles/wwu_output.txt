@@ -1,0 +1,28 @@
+============================= LINKS =============================
+https://www.wwu.edu/chpw/
+https://jweb-admcs.wwu.edu/IdRecovery/
+https://www.wwu.edu/webactivate/
+https://admin.wwu.edu/pls/wwis/twbkwbis.P_WWWLogin
+mailto:helpdesk@wwu.edu
+http://west.wwu.edu/atus/helpdesk/useragreement.shtml
+
+
+============================= HTML ==============================
+<html><head><title></title><meta/><meta><meta><meta><meta><meta/><link><link/><link/>
+<link/><link/><link/><link/><script></script><script></script><script></head><body>
+<div><div><span></span></div><div><h1></h1><form><input/><input/><input/><p><label>
+</label><input/></p><p><label></label><input/></p><p><input/><label></label><span>
+<a><img></a></span><div></div></p><p><input/></p></form></div><div><div><ul><li><a>
+</a></li><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li></ul><p>
+<a></a></p></div></div></div><script></body></html>
+
+=========================== SEQUENCES ===========================
+Universal Login 
+Western Washington University 
+Universal Login 
+Forgot Reset Password 
+Lookup Username 
+Activate Account 
+Alumni Former Employees 
+Help Desk 
+Computing Resources User Agreement 

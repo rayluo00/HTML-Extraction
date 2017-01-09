@@ -1,0 +1,626 @@
+============================= LINKS =============================
+http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd
+http://www.w3.org/1999/xhtml
+http://estive.net/
+http://homepages.inf.ed.ac.uk/ewan/
+http://ed.loper.org/
+http://creativecommons.org/licenses/by-nc-nd/3.0/us/
+
+
+============================= HTML ==============================
+<?xml><script><html><head><meta/><meta/><title></title><style></style></head><body>
+<div><span></span><h1></h1><p></p><ol><li></li><li></li><li></li><li></li></ol><p>
+<a></a><tt><span></span></tt></p><div><span></span><h1></h1><p><span></span></p>
+<div><h2></h2><p><a/><span></span><em></em><em></em><em></em><em></em><tt><span>
+</span></tt><tt><span></span></tt></p><div><table><tr><td><table><tr><td></td><td>
+<pre><span></span></pre></td></tr></table></td></tr></table></div><div><p></p><p>
+<tt><span></span></tt><tt><span></span></tt><tt><span></span></tt><tt><span></span>
+</tt><tt><span><span></span><span></span></span></tt></p></div><p><tt><span><span>
+</span></span></tt><tt><span><span></span></span></tt></p><div><table><tr><td>
+<table><tr><td></td><td><pre><span></span><span></span><span></span><span></span>
+</pre></td></tr></table></td></tr></table></div><p></p><div><p></p><p><strong>
+</strong><tt><span></span></tt><tt><span></span></tt></p></div><p></p><div><table>
+<tr><td><table><tr><td></td><td><pre><span></span><span></span><span></span><span>
+</span><span></span><span></span><span></span></pre></td></tr></table></td></tr>
+</table></div><p><a/><span></span><tt><span></span></tt></p><p></p></div><div><h2>
+</h2><p><tt><span></span></tt></p><p><tt><span></span></tt><a></a></p><div><table>
+<tr><td><table><tr><td></td><td><pre><span></span><span></span><span></span></pre>
+</td></tr></table></td></tr></table></div><span></span><div><img/><p><span></span>
+<tt><span></span></tt><strong></strong><strong></strong><strong></strong></p></div>
+<p><tt><span><span></span><span></span></span></tt><tt><span></span></tt><tt><span>
+</span></tt><tt><span><span></span></span></tt></p><div><table><tr><td><table><tr>
+<td></td><td><pre><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span></pre></td></tr></table></td></tr></table></div><p></p><div><table>
+<tr><td><table><tr><td></td><td><pre><span></span><span></span><span></span><span>
+</span><span></span><span></span><span></span></pre></td></tr></table></td></tr>
+</table></div><p></p></div><div><h2></h2><p><span></span><em></em><tt><span></span>
+</tt><tt><span></span></tt><tt><span><span></span></span></tt></p><div><table><tr>
+<td><table><tr><td></td><td><pre><span></span><span></span><span></span><span>
+</span><span></span><span></span><span></span><span></span><span></span><span>
+</span><span></span><span></span><span></span><span></span><span></span><span>
+</span></pre></td></tr></table></td></tr></table></div><p></p><div><p></p><p>
+<strong></strong><em></em><span></span><tt><span><span></span></span></tt><tt>
+<span><span></span></span></tt><tt><span></span></tt><em></em><span></span><span>
+</span><span></span><tt><span></span></tt><em></em><span></span><span></span><span>
+</span></p></div><p></p><p><span></span><span></span><span></span><tt><span></span>
+</tt></p><div><table><tr><td><table><tr><td></td><td><pre><span></span><span>
+</span><span></span><span></span><span></span><span></span><span></span><span>
+</span><span></span><span></span><span></span><span></span></pre></td></tr></table>
+</td></tr></table></div><p><span></span><span></span></p><p><tt><span></span></tt>
+<span></span><span></span></p><div><table><tr><td><table><tr><td></td><td><pre>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+</pre></td></tr></table></td></tr></table></div><div><p></p><p><strong></strong>
+<tt><span></span></tt><tt><span></span></tt></p></div><p><em></em><a/><span></span>
+<a></a><span></span><span></span></p><div><table><tr><td><table><tr><td></td><td>
+<pre><span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span></pre></td></tr></table></td></tr></table></div><span></span><div>
+<img/><p><span></span></p></div><div><p></p><p><strong></strong><tt><span></span>
+</tt></p></div><div><p></p><p><tt><span></span></tt></p></div><p><tt><span></span>
+</tt></p><div><table><tr><td><table><tr><td></td><td><pre><span></span><span>
+</span><span></span><span></span><span></span><span></span><span></span><span>
+</span><span></span></pre></td></tr></table></td></tr></table></div><div><p></p><p>
+<tt><span></span></tt></p></div></div><div><h2></h2><p></p><p><tt><span></span>
+</tt></p><div><table><tr><td><table><tr><td></td><td><pre><span></span><span>
+</span><span></span><span></span></pre></td></tr></table></td></tr></table></div>
+<p><a/><span></span><tt><span></span></tt><tt><span></span></tt><tt><span></span>
+</tt><span></span><span></span><span></span><span></span><span></span><em></em><tt>
+<span></span></tt><tt><span></span></tt></p><div><table><tr><td><table><tr><td>
+</td><td><pre><span></span><a/><a><img/></a><span></span><span></span><span></span>
+<span></span><span></span><a/><a><img/></a><span></span><span></span><span></span>
+</pre></td></tr></table></td></tr></table></div><p><tt><span></span></tt><tt><span>
+</span></tt><a><span><img/></span></a><span></span><tt><span></span></tt><a><span>
+<img/></span></a><a/><span></span><a/><span></span></p><p><tt><span><span></span>
+<span></span></span></tt></p><div><table><tr><td><table><tr><td></td><td><pre>
+<span></span><span></span><span></span><span></span></pre></td></tr></table></td>
+</tr></table></div><p></p><div><table><tr><td><table><tr><td></td><td><pre><span>
+</span><span></span><span></span><span></span><span></span><span></span><span>
+</span><span></span><span></span></pre></td></tr></table></td></tr></table></div>
+<div><p></p><p><strong></strong><span></span><tt><span></span></tt></p></div><p>
+<a/><span></span><tt><span></span></tt><tt><span></span></tt><tt><span></span></tt>
+</p><div><table><tr><td><table><tr><td></td><td><pre><span></span><span></span>
+<span></span><a/><a><img/></a><span></span><a/><a><img/></a><span></span><span>
+</span><span></span><span></span><a/><a><img/></a><span></span><span></span></pre>
+</td></tr></table></td></tr></table></div><div><p></p><p><tt><span><span></span>
+</span></tt><tt><span><span></span></span></tt><tt><span><span></span></span></tt>
+<a/><span></span></p></div><p><tt><span></span></tt><a><span><img/></span></a><a/>
+<span></span><tt><span></span></tt><a><span><img/></span></a><tt><span></span></tt>
+<tt><span></span></tt><tt><span></span></tt><a><span><img/></span></a></p><p><tt>
+<span></span></tt><tt><span></span></tt></p><div><table><tr><td><table><tr><td>
+</td><td><pre><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span></pre></td></tr></table></td></tr></table>
+</div><p><a/><span></span><tt><span></span></tt><tt><span></span></tt><tt><span>
+</span></tt><a/><span></span></p><p><tt><span></span></tt><tt><span></span></tt>
+<tt><span></span></tt><tt><span></span></tt></p><p><a></a></p><span></span><table>
+<colgroup><col/><col/><col/><col/></colgroup><thead><tr><th></th><th></th><th></th>
+<th></th></tr></thead><tbody><tr><td></td><td></td><td></td><td></td></tr><tr><td>
+</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>
+</td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody><p><span></span><p>
+<em></em></p></p></table></div></div><div><span></span><h1></h1><p></p><div><h2>
+</h2><p><em></em></p><div><table><tr><td><table><tr><td></td><td><pre><span></span>
+<span></span><span></span><span></span><span></span><span></span></pre></td></tr>
+</table></td></tr></table></div><p><tt><span></span></tt><a/><span></span><a><span>
+<img/></span></a><a><span><img/></span></a><tt><span></span></tt><a><span><img/>
+</span></a></p><div><table><tr><td><table><tr><td></td><td><pre><span></span><a/>
+<a><img/></a><span></span><span></span><span></span><a/><a><img/></a><span></span>
+<span></span><span></span><a/><a><img/></a><span></span><span></span><span></span>
+</pre></td></tr></table></td></tr></table></div><p><tt><span></span></tt><tt><span>
+</span></tt><tt><span></span></tt><tt><span><span></span><span></span></span></tt>
+</p><div><table><tr><td><table><tr><td></td><td><pre><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span></pre></td></tr></table></td></tr></table></div><div><p></p><p>
+<strong></strong><tt><span><span></span><span></span><span></span><span></span>
+<span></span><span></span></span></tt><a></a><tt><span></span></tt><tt><span>
+</span></tt><tt><span><span></span></span></tt></p></div><p><a><span><img/></span>
+</a></p><div><table><tr><td><table><tr><td></td><td><pre><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><a/><a><img/></a>
+<span></span><span></span><span></span></pre></td></tr></table></td></tr></table>
+</div><div><p></p><p><a/><span></span></p></div><p></p><div><table><tr><td><table>
+<tr><td></td><td><pre><span></span><span></span><span></span><span></span><span>
+</span></pre></td></tr></table></td></tr></table></div><p><a/><span></span><tt>
+<span></span></tt></p><div><table><tr><td><table><tr><td></td><td><pre><span>
+</span><span></span><span></span><span></span><span></span><span></span></pre></td>
+</tr></table></td></tr></table></div></div><div><h2></h2><p><tt><span></span></tt>
+<tt><span></span></tt><tt><span><span></span></span></tt><tt><span><span></span>
+</span></tt></p><p><a/><span></span><tt><span></span></tt></p><div><table><tr><td>
+<table><tr><td></td><td><pre><span></span><span></span><span></span><span></span>
+</pre></td></tr></table></td></tr></table></div><p></p><div><table><tr><td><table>
+<tr><td></td><td><pre><span></span><span></span><span></span><span></span><span>
+</span></pre></td></tr></table></td></tr></table></div><p><a/><span></span></p>
+<div><table><tr><td><table><tr><td></td><td><pre><span></span><span></span><span>
+</span><span></span><span></span><span></span><span></span><span></span><span>
+</span><span></span><span></span></pre></td></tr></table></td></tr></table></div>
+<p></p><div><table><tr><td><table><tr><td></td><td><pre><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span></pre></td></tr>
+</table></td></tr></table></div><p><tt><span></span></tt><tt><span></span></tt><tt>
+<span><span></span></span></tt><tt><span></span></tt><tt><span><span></span></span>
+</tt></p><div><p></p><p><span></span><span></span></p></div><p></p><div><table><tr>
+<td><table><tr><td></td><td><pre><span></span><span></span><span></span><span>
+</span><span></span><span></span></pre></td></tr></table></td></tr></table></div>
+<p><a/><span></span><tt><span></span></tt><tt><span></span></tt></p><p><tt><span>
+</span></tt><tt><span></span></tt></p><div><table><tr><td><table><tr><td></td><td>
+<pre><span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span></pre></td></tr></table></td></tr></table></div><p><tt><span></span>
+</tt><span></span><span></span><a><span><img/></span></a><a><span><img/></span></a>
+</p><div><table><tr><td><table><tr><td></td><td><pre><span></span><a/><a><img/></a>
+<span></span><span></span><span></span><a/><a><img/></a><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+</pre></td></tr></table></td></tr></table></div><p><tt><span></span></tt><a><span>
+<img/></span></a><a><span><img/></span></a><a><span><img/></span></a></p><div>
+<table><tr><td><table><tr><td></td><td><pre><span></span><span></span><a/><a><img/>
+</a><span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><a/><a><img/></a><span></span><span></span><span></span>
+<span></span><a/><a><img/></a><span></span><span></span><span></span><span></span>
+<span></span></pre></td></tr></table></td></tr></table></div><div><p></p><p>
+<strong></strong></p></div></div><div><h2></h2><p><a></a><tt><span></span></tt><tt>
+<span></span></tt><a/><span></span><tt><span></span></tt></p><div><table><tr><td>
+<table><tr><td></td><td><pre><span></span><span></span><span></span><span></span>
+<span></span><span></span></pre></td></tr></table></td></tr></table></div><p><em>
+</em><a/><span></span><tt><span></span></tt><tt><span></span></tt><tt><span></span>
+</tt></p><div><table><tr><td><table><tr><td></td><td><pre><span></span><span>
+</span><span></span><span></span><span></span><span></span><span></span><span>
+</span><span></span><span></span><span></span><span></span><span></span><span>
+</span><span></span><span></span><span></span><span></span><span></span><span>
+</span><span></span></pre></td></tr></table></td></tr></table></div><p></p><div><p>
+</p><p><tt><span></span></tt><tt><span><span></span></span></tt></p></div><p><tt>
+<span><span></span></span></tt><tt><span></span></tt><tt><span></span></tt><tt>
+<span><span></span></span></tt><tt><span><span></span></span></tt><tt><span><span>
+</span></span></tt></p><div><table><tr><td><table><tr><td></td><td><pre><span>
+</span><span></span><span></span><span></span><span></span><span></span><span>
+</span><span></span><span></span></pre></td></tr></table></td></tr></table></div>
+<p><tt><span></span></tt></p><div><table><tr><td><table><tr><td></td><td><pre>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+</pre></td></tr></table></td></tr></table></div><div><p></p><p><a/><span></span>
+<tt><span></span></tt><tt><span></span></tt><tt><span></span></tt><tt><span></span>
+</tt><tt><span></span></tt><tt><span></span></tt><tt><span></span></tt><tt><span>
+</span></tt><tt><span></span></tt></p></div></div><div><h2></h2><p><a/><span>
+</span><a><span><img/></span></a><a><span><img/></span></a><a><span><img/></span>
+</a></p><div><table><tr><td><table><tr><td></td><td><pre><span></span><span></span>
+<a/><a><img/></a><span></span><a/><a><img/></a><span></span><span></span><span>
+</span><a/><a><img/></a><span></span><span></span><span></span></pre></td></tr>
+</table></td></tr></table></div><p></p><div><table><tr><td><table><tr><td></td><td>
+<pre><span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span></pre></td></tr></table></td></tr></table></div><p></p>
+<div><table><tr><td><table><tr><td></td><td><pre><span></span><span></span><span>
+</span><span></span><span></span><span></span><span></span><span></span><span>
+</span><span></span><span></span></pre></td></tr></table></td></tr></table></div>
+<p><a></a></p></div></div><div><span></span><h1></h1><p><a></a></p><p><a></a></p>
+<p></p><div><table><tr><td><table><tr><td></td><td><pre><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span></pre></td></tr>
+</table></td></tr></table></div><div><h2></h2><p><a></a></p><span></span><div>
+<img/><p><span></span></p></div><p><a></a><a/><span></span><tt><span></span></tt>
+<em></em></p><div><table><tr><td><table><tr><td></td><td><pre><span></span><a/><a>
+<img/></a><span></span><span></span><a/><a><img/></a><span></span><span></span>
+<span></span><a/><a><img/></a><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+</pre></td></tr></table></td></tr></table></div><p><tt><span></span></tt><a><span>
+<img/></span></a><a><span><img/></span></a><em></em><tt><span></span></tt><a><span>
+<img/></span></a></p><div><p></p><p><strong></strong><tt><span></span></tt><tt>
+<span><span></span><span></span><span></span></span></tt><tt><span><span></span>
+<span></span></span></tt></p></div><p><span></span><tt><span></span></tt><a></a>
+</p><span></span><div><img/><p><span></span><em></em></p></div><p><a/><span></span>
+<tt><span></span></tt><span></span><span></span><span></span><span></span></p>
+</div><div><h2></h2><p><em></em><span></span><span></span><span></span><a></a>
+<span></span><span></span><span></span><span></span><span></span></p><span></span>
+<p><table><tr><td></td><td></td><td><span></span><p><table><tr><td></td><td></td>
+<td><span></span><span></span><span></span><span></span></td></tr></table></p>
+<span></span><p><table><tr><td></td><td></td><td><tt><span><span></span><span>
+</span><span></span></span></tt></td></tr></table></p></td></tr></table></p><p><a>
+</a></p><div><table><tr><td><table><tr><td></td><td><pre><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+</pre></td></tr></table></td></tr></table></div><p><tt><span></span></tt><tt><span>
+</span></tt><tt><span></span></tt></p><div><p></p><p><strong></strong><tt><span>
+<span></span><span></span><span></span></span></tt></p></div><p><tt><span></span>
+</tt><span></span><span></span><tt><span></span></tt><span></span><span></span><em>
+</em><span></span><span></span></p><div><table><tr><td><table><tr><td></td><td>
+<pre><span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+</pre></td></tr></table></td></tr></table></div><p><tt><span></span></tt><tt><span>
+</span></tt></p></div><div><h2></h2><p><a/><span></span><span></span><span></span>
+<span></span></p><p><a/><span></span><tt><span></span></tt></p><div><table><tr><td>
+<table><tr><td></td><td><pre><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span></pre></td></tr>
+</table></td></tr></table></div><div><p></p><p><tt><span></span></tt><tt><span>
+<span></span></span></tt><tt><span></span></tt><tt><span></span></tt></p></div><p>
+<span></span><tt><span><span></span><span></span></span></tt><tt><span></span></tt>
+</p><div><table><tr><td><table><tr><td></td><td><pre><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span></pre></td></tr></table></td></tr></table></div><p><span></span></p>
+</div><div><h2></h2><p><tt><span></span></tt></p><div><table><tr><td><table><tr>
+<td></td><td><pre><span></span><span></span><span></span><a/><a><img/></a><span>
+</span><span></span><span></span><span></span><span></span><a/><a><img/></a><span>
+</span><span></span><a/><a><img/></a><span></span><span></span><span></span><span>
+</span><span></span><span></span><span></span></pre></td></tr></table></td></tr>
+</table></div><p><tt><span></span></tt><a><span><img/></span></a><tt><span></span>
+</tt><a><span><img/></span></a><a><span><img/></span></a></p><div><table><tr><td>
+<table><tr><td></td><td><pre><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span></pre></td></tr>
+</table></td></tr></table></div><p></p><p><a></a></p><span></span><table><colgroup>
+<col/><col/></colgroup><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>
+<tt><span></span></tt></td><td></td></tr><tr><td><tt><span></span></tt></td><td>
+</td></tr><tr><td><tt><span><span></span></span></tt></td><td></td></tr><tr><td>
+<tt><span><span></span></span></tt></td><td></td></tr><tr><td><tt><span></span>
+</tt></td><td></td></tr><tr><td><tt><span></span></tt></td><td><tt><span></span>
+</tt></td></tr><tr><td><tt><span><span></span><span></span></span></tt></td><td>
+</td></tr><tr><td><tt><span></span></tt></td><td></td></tr><tr><td><tt><span>
+</span></tt></td><td></td></tr><tr><td><tt><span></span></tt></td><td></td></tr>
+<tr><td><tt><span></span></tt></td><td></td></tr><tr><td><tt><span></span></tt>
+</td><td><tt><span></span></tt><tt><span></span></tt></td></tr><tr><td><tt><span>
+</span></tt></td><td><tt><span></span></tt><tt><span></span></tt></td></tr></tbody>
+<p><span></span><p></p></p></table><p><a></a></p></div></div><div><span></span><h1>
+</h1><p><a/><span></span></p><div><h2></h2><p><tt><span></span></tt><tt><span>
+</span></tt><a/><span></span><a></a></p><span></span><table><colgroup><col/><col/>
+</colgroup><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><tt><span>
+</span></tt></td><td></td></tr><tr><td><tt><span></span></tt></td><td></td></tr>
+<tr><td><tt><span></span></tt></td><td><tt><span></span></tt></td></tr><tr><td><tt>
+<span></span></tt></td><td></td></tr><tr><td><tt><span></span></tt></td><td></td>
+</tr><tr><td><tt><span></span></tt></td><td></td></tr></tbody><p><span></span><p>
+</p></p></table><p><tt><span></span></tt><tt><span></span></tt><em></em><tt><span>
+</span></tt><tt><span><span></span><span></span></span></tt></p><div><table><tr>
+<td><table><tr><td></td><td><pre><span></span><span></span><span></span><span>
+</span><span></span><span></span><span></span><span></span><span></span><span>
+</span><span></span><span></span><span></span><span></span><span></span><span>
+</span><span></span><span></span><span></span><span></span><span></span><span>
+</span><span></span><span></span><span></span><span></span><span></span><span>
+</span><span></span><span></span></pre></td></tr></table></td></tr></table></div>
+<p><tt><span><span></span><span></span><span></span></span></tt><em></em><tt><span>
+</span></tt><em></em><a></a></p><span></span><table><colgroup><col/><col/>
+</colgroup><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><tt><span>
+</span></tt></td><td><tt><span></span></tt><tt><span></span></tt></td></tr><tr><td>
+<tt><span></span></tt></td><td><tt><span></span></tt><tt><span></span></tt></td>
+</tr><tr><td><tt><span><span></span></span></tt></td><td><tt><span></span></tt><tt>
+<span></span></tt></td></tr><tr><td><tt><span></span></tt></td><td><tt><span>
+</span></tt></td></tr><tr><td><tt><span></span></tt></td><td><tt><span></span></tt>
+</td></tr><tr><td><tt><span></span></tt></td><td><tt><span></span></tt><tt><span>
+</span></tt></td></tr><tr><td><tt><span></span></tt></td><td><tt><span></span></tt>
+<tt><span></span></tt></td></tr><tr><td><tt><span></span></tt></td><td><tt><span>
+</span></tt><tt><span></span></tt></td></tr><tr><td><tt><span></span></tt></td><td>
+<tt><span></span></tt><tt><span></span></tt></td></tr></tbody><p><span></span><p>
+</p></p></table><p><span></span><span></span></p><div><table><tr><td><table><tr>
+<td></td><td><pre><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span></pre></td></tr>
+</table></td></tr></table></div><p><span></span><tt><span><span></span></span></tt>
+<span></span><span></span><sub></sub><span></span><sub></sub><span></span><sub>
+</sub><tt><span><span></span></span></tt><span></span><sub></sub><span></span><sub>
+</sub><tt><span><span></span></span></tt><span></span><sub></sub></p><div><p></p>
+<p><strong></strong></p></div><div><table><tr><td><table><tr><td></td><td><pre>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span></pre></td></tr></table></td>
+</tr></table></div></div><div><h2></h2><p><a></a></p><div><table><tr><td><table>
+<tr><td></td><td><pre><span></span><span></span><span></span><span></span><span>
+</span><span></span><span></span><span></span><span></span><span></span><span>
+</span></pre></td></tr></table></td></tr></table></div><p><tt><span><span></span>
+</span></tt><tt><span><span></span></span></tt><tt><span></span></tt><tt><span>
+</span></tt><tt><span></span></tt><tt><span></span></tt><tt><span></span></tt></p>
+<div><p></p><p></p></div><p></p><div><table><tr><td><table><tr><td></td><td><pre>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+</pre></td></tr></table></td></tr></table></div><p><span></span><span></span></p>
+<div><table><tr><td><table><tr><td></td><td><pre><span></span><span></span><span>
+</span><span></span><span></span><span></span><span></span></pre></td></tr></table>
+</td></tr></table></div><p></p><p></p></div><div><h2></h2><p><a/><span></span><tt>
+<span><span></span></span></tt><tt><span><span></span><span></span><span></span>
+</span></tt><tt><span></span></tt><tt><span><span></span></span></tt><tt><span>
+<span></span></span></tt><tt><span></span></tt><tt><span><span></span></span></tt>
+<tt><span><span></span></span></tt><tt><span><span></span></span></tt></p><div>
+<table><tr><td><table><tr><td></td><td><pre><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><a/><a><img/></a>
+<span></span><span></span><span></span></pre></td></tr></table></td></tr></table>
+</div><p><a><span><img/></span></a></p><div><p></p><p><tt><span><span></span>
+</span></tt></p><div><table><tr><td><table><tr><td></td><td><pre><span></span>
+<span></span><span></span></pre></td></tr></table></td></tr></table></div></div><p>
+<tt><span></span></tt><tt><span></span></tt><tt><span></span></tt><tt><span><span>
+</span></span></tt></p><div><table><tr><td><table><tr><td></td><td><pre><span>
+</span><span></span><span></span><span></span><span></span><span></span><span>
+</span></pre></td></tr></table></td></tr></table></div><p><tt><span><span></span>
+</span></tt><a/><span></span><tt><span><span></span></span></tt></p><div><table>
+<tr><td><table><tr><td></td><td><pre><span></span><span></span><span></span><span>
+</span><span></span><span></span><span></span><span></span><span></span><span>
+</span><span></span><span></span><span></span><span></span><span></span><span>
+</span></pre></td></tr></table></td></tr></table></div><p><tt><span><span></span>
+</span></tt><tt><span></span></tt><tt><span></span></tt><tt><span><span></span>
+</span></tt><tt><span><span></span></span></tt></p></div><div><h2></h2><p><tt>
+<span><span></span></span></tt><tt><span><span></span></span></tt><em></em></p>
+<div><table><tr><td><table><tr><td></td><td><pre><span></span><span></span><span>
+</span><span></span><span></span><span></span><span></span><span></span><span>
+</span><span></span><span></span><span></span><span></span><span></span><span>
+</span><span></span><span></span><span></span></pre></td></tr></table></td></tr>
+</table></div><p><tt><span><span></span></span></tt><tt><span><span></span></span>
+</tt></p><p><tt><span><span></span></span></tt><tt><span><span></span></span></tt>
+<tt><span><span></span></span></tt></p><div><table><tr><td><table><tr><td></td><td>
+<pre><span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span></pre></td></tr></table></td></tr></table></div><p></p><p><span>
+</span><span></span><cite></cite></p><div><table><tr><td><table><tr><td></td><td>
+<pre><span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span></span><span></span><span></span><span></span>
+<span></span></pre></td></tr></table></td></tr></table></div></div></div><div>
+<span></span><h1></h1><p></p><p><span></span><span></span><span></span></p><p></p>
+<p></p><div><h2></h2><p><a/><span></span><span></span><span></span></p><p><table>
+<tr><td></td><td></td><td><p><table><tr><td></td><td></td><td><span></span></td>
+</tr></table></p><p><table><tr><td></td><td></td><td><span></span></td></tr>
+</table></p></td></tr></table></p><p><span></span><span></span><span></span><span>
+</span><span></span><span></span><span></span><a></a><span></span></p><span></span>
+<p><table><tr><td></td><td></td><td><p><table><tr><td></td><td></td><td><span>
+</span></td></tr></table></p><p><table><tr><td></td><td></td><td><span></span></td>
+</tr></table></p><p><table><tr><td></td><td></td><td><span></span></td></tr>
+</table></p></td></tr></table></p></div><div><h2></h2><p><span></span><a></a></p>
+<span></span><p><table><tr><td></td><td></td><td><p><table><tr><td></td><td></td>
+<td><span></span></td></tr></table></p><p><table><tr><td></td><td></td><td><span>
+</span></td></tr></table></p><p><table><tr><td></td><td></td><td><span></span></td>
+</tr></table></p></td></tr></table></p><p><a/><span></span><span></span><a/><span>
+</span><a/><span></span></p></div><div><h2></h2><p><a/><span></span><a/><span>
+</span></p><span></span><p><table><tr><td></td><td></td><td><p><table><tr><td></td>
+<td></td><td><em></em></td></tr></table></p><p><table><tr><td></td><td></td><td>
+<em></em></td></tr></table></p><p><table><tr><td></td><td></td><td><em></em></td>
+</tr></table></p></td></tr></table></p><p><span></span><span></span><span></span>
+</p><span></span><p><table><tr><td></td><td></td><td><p><table><tr><td></td><td>
+</td><td></td></tr></table></p><p><table><tr><td></td><td></td><td></td></tr>
+</table></p><p><table><tr><td></td><td></td><td></td></tr></table></p></td></tr>
+</table></p><p></p></div><div><h2></h2><p></p><p></p><div><div></div><div></div>
+<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div>
+</div><div></div><div></div><div></div></div><p><span></span><tt><span></span></tt>
+<span></span><tt><span></span></tt><span></span><span></span><span></span><tt>
+<span></span></tt><span></span><span></span></p><div><p></p><p><strong></strong>
+<tt><span></span></tt></p></div><p><a/><span></span></p></div><div><h2></h2><p><a/>
+<span></span></p><div><div></div><div></div><div></div><div></div><div></div><div>
+</div></div><p></p><p><span></span><span></span><span></span><span></span><span>
+</span></p><span></span><div><img/><p><span></span></p></div><p><a></a><a/><span>
+</span></p><div><p></p><p><strong></strong><tt><span></span></tt><tt><span><span>
+</span></span></tt></p></div></div><div><h2></h2><p><span></span><span></span><a>
+</a><span></span></p><p><table><tr><td></td><td></td><td><p><table><tr><td></td>
+<td></td><td></td></tr></table></p><p><table><tr><td></td><td></td><td></td></tr>
+</table></p></td></tr></table></p><p></p></div><div><h2></h2><p></p></div></div>
+<div><h1></h1><ul><li><tt><span><span></span><span></span></span></tt><tt><span>
+</span></tt></li><li><tt><span></span></tt><tt><span></span></tt></li><li><tt>
+<span></span></tt><tt><span></span></tt></li><li><tt><span><span></span><span>
+</span></span></tt></li><li><tt><span><span></span><span></span><span></span>
+</span></tt></li><li><tt><span><span></span></span></tt><tt><span><span></span>
+<span></span></span></tt><tt><span><span></span><span></span></span></tt></li><li>
+<tt><span><span></span></span></tt><tt><span><span></span></span></tt></li><li>
+</li><li><tt><span></span></tt><tt><span><span></span><span></span></span></tt><tt>
+<span></span></tt><tt><span></span></tt></li><li><tt><span></span></tt><tt><span>
+</span></tt><tt><span></span></tt></li></ul></div><div><h1></h1><p><tt><span>
+</span></tt></p><p><tt><span></span></tt><span></span><tt><span></span></tt><tt>
+<span></span></tt></p><p><tt><span></span></tt></p><p><a></a></p><ul><li><em></em>
+<a></a><a></a></li><li><em></em><a></a></li><li><em></em><a></a></li></ul><p><tt>
+<span></span></tt><span></span><span></span></p><p><a><span><span></span></span>
+</a><a></a><a></a><span></span></p></div><div><h1></h1><ol><li><p><tt><span></span>
+</tt></p></li><li><p><tt><span></span></tt><tt><span></span></tt></p></li><li><p>
+<tt><span><span></span><span></span></span></tt><tt><span></span></tt></p></li><li>
+<p><a></a><tt><span></span></tt></p></li><li><p><a></a></p></li><li><p><em></em>
+</p></li><li><p><tt><span></span></tt></p></li><li><p><tt><span></span></tt></p>
+</li><li><p><a></a></p><ol><li><tt><span><span></span></span></tt><tt><span><span>
+</span></span></tt></li><li><tt><span></span></tt><tt><span></span></tt></li></ol>
+</li><li><p><tt><span></span></tt><tt><span><span></span><span></span></span></tt>
+</p><ol><li><tt><span><span></span></span></tt></li><li><tt><span></span></tt></li>
+</ol></li><li><p><tt><span></span></tt><tt><span></span></tt><tt><span></span></tt>
+<tt><span></span></tt></p></li><li><p></p><ol><li><tt><span><span></span></span>
+</tt></li><li><tt><span><span></span><span></span></span></tt></li></ol></li><li>
+<p><tt><span></span></tt></p></li><li><p><tt><span></span></tt><tt><span></span>
+</tt><span></span><tt><span></span></tt><tt><span></span></tt><tt><span><span>
+</span></span></tt><tt><span></span></tt></p></li><li><p><a></a><tt><span></span>
+</tt><span></span></p></li><li><p><tt><span></span></tt><tt><span></span></tt><tt>
+<span></span></tt><tt><span></span></tt></p></li><li><p><tt><span></span></tt>
+<span></span></p></li><li><p><tt><span></span></tt><tt><span></span></tt><tt><span>
+</span></tt><tt><span></span></tt></p></li><li><p></p><div><table><tr><td><table>
+<tr><td></td><td><pre><span></span><span></span><span></span><span></span><span>
+</span><span></span></pre></td></tr></table></td></tr></table></div></li><li><p>
+<tt><span></span></tt><tt><span><span></span></span></tt></p></li><li><p><tt><span>
+</span></tt></p></li><li><p><tt><span></span></tt><tt><span></span></tt></p></li>
+<li><p><a></a><tt><span><span></span></span></tt><tt><span><span></span></span>
+</tt><em></em><tt><span></span></tt><tt><span><span></span></span></tt></p></li>
+<li><p><tt><span></span></tt><tt><span><span></span><span></span></span></tt></p>
+<ol><li><span></span></li><li><span></span></li><li><span></span></li><li><tt>
+<span></span></tt></li></ol></li><li><p><tt><span></span></tt><tt><span><span>
+</span><span></span><span></span><span></span><span></span><span></span><span>
+</span><span></span></span></tt></p><ol><li><span></span></li><li></li></ol></li>
+<li><p><tt><span><span></span><span></span></span></tt></p></li><li><p><tt><span>
+</span></tt></p></li><li><p><tt><span></span></tt></p></li><li><p><tt><span></span>
+</tt><tt><span></span></tt></p></li></ol><div><p></p><p><em></em><a></a><a></a><a>
+</a><em></em><tt><span></span></tt><em></em><a></a></p><p></p></div></div><div><h1>
+</h1><div><p><tt></tt><em><a></a></em></p></div></div></div></body></html>
+
+=========================== SEQUENCES ===========================
+Language Processing 
+Author Edward Loper James Curran Copyright This 
+Docutils This 
+NLTK It 
+Language Processing 
+Language Texts 
+Getting Started 
+Interactive DeveLopment Environment IDLE On 
+All Programs 
+Under Unix 
+Compatible Apple LLVM 
+Your Turn 
+In Python 
+The Python 
+Getting Started 
+NLTK Book Collection 
+Introductory Examples 
+NLTK Book 
+Moby Dick 
+Herman Melville 
+Jane Austen 
+The Book 
+Inaugural Address Corpus 
+Chat Corpus 
+Monty Python 
+Holy Grail 
+Wall Street Journal 
+Personals Corpus 
+The Man Who Was Thursday 
+Text Moby Dick 
+Herman Melville 
+Text Sense 
+Jane Austen 
+Searching Text 
+Moby Dick 
+ON OF THE PSALMS 
+That Himmal 
+Moby Dick 
+Scenes In 
+Whale Bones 
+Your Turn 
+Inaugural Address Corpus 
+NPS Chat Corpus 
+Your Turn 
+Inaugural Address Corpus 
+Lexical Dispersion Plot 
+Presidential Inaugural Addresses This 
+Counting Vocabulary 
+So Genesis 
+In Python 
+Abel Abelmizraim Abidah Abide Abimael Abimelech 
+Abr Abrah Abraham Abram Accad Achbor Adah 
+Your Turn 
+The Python 
+Once Python 
+Lexical Diversity 
+Various Genres 
+Brown Corpus 
+Closer Look 
+Python Texts 
+Moby Dick 
+Your Turn 
+Monty Python 
+Holy Grail 
+Fellow Citizens 
+Representatives Call 
+Ishmael Some 
+Indexing Lists 
+THE END 
+First Second Third Last 
+Your Turn 
+Sir Robin 
+Robin Sir 
+Monty Python 
+Monty Python 
+Monty Python 
+Language Simple Statistics 
+Frequency Distributions 
+Counting Words Appearing 
+Moby Dick 
+Moby Dick 
+Your Turn 
+Cumulative Frequency Plot 
+Most Frequently Words 
+Moby Dick 
+CIRCUMNAVIGATION Physiognomically 
+Your Turn 
+United States 
+Government General Government American 
+Vice President Old 
+World Almighty God Fellow 
+Chief Magistrate Chief Justice 
+Counting Other Things 
+Functions Defined 
+Frequency Distributions 
+Python Making Decisions 
+Taking Control 
+Numerical Comparison Operators 
+Wall Street Journal 
+Pierre Vinken 
+Pierre Vinken 
+Some Word Comparison Operators 
+Aaaaaaaaah Aaaaaaaah Aaaaaah Aaaah Aaaaugh Aaagh 
+Your Turn 
+Every Element 
+MOBY DICK BY HERMAN MELVILLE 
+Nested Code Blocks 
+Automatic Natural Language Understanding 
+Web Search 
+Word Sense Disambiguation 
+Pronoun Resolution 
+Generating Language Output 
+Machine Translation 
+Cold War 
+Alice Springs 
+Alice Springs 
+Alice Springs 
+Your Turn 
+Spoken Dialog Systems 
+Turing Test 
+Saving Private Ryan 
+The Paramount 
+Saving Private Ryan 
+Saving Private Ryan 
+Simple Pipeline Architecture 
+Spoken Dialogue System Spoken 
+Your Turn 
+Textual Entailment 
+Recognizing Textual Entailment RTE The 
+Sandra Goudie 
+Max Purnell 
+Sandra Goudie 
+Max Purnell 
+Green MP Jeanette Fitzsimons 
+The RTE Challenges 
+Sandra Goudie 
+Text David Golinkin 
+Hypothesis Golinkin 
+Further Reading 
+Turing Test 
+NLTK Users 
+Indurkhya Nitin 
+Fred Damerau 
+Natural Language Processing 
+Second Edition Chapman 
+Hall CRC 
+Dale Moisl 
+Jurafsky Daniel 
+James Martin 
+Language Processing 
+Second Edition Prentice Hall 
+Mitkov Ruslan 
+The Oxford Handbook 
+Computational Linguistics 
+Oxford University Press 
+The Association 
+Computational Linguistics 
+NLP The ACL 
+ACL Wiki 
+ACL Anthology 
+The Python 
+Elinor Marianne Edward 
+Willoughby What 
+My String 
+NLP Why 
+Monty Pythonquot 
+Why Experiment 
+Chat Corpus 
+Chat Corpus 
+Monty Python 
+Holy Grail 
+UPDATED FOR NLTK 
+Natural Language Processing 
+Steven Bird 
+Ewan Klein 
+Edward Loper 
+Natural Language Toolkit 
+Creative Commons Attribution Noncommercial No Derivative Works 
+United States License 
+Docutils System Messages 
+System Message ERROR 

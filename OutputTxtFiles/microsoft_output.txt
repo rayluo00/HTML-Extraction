@@ -1,0 +1,292 @@
+============================= LINKS =============================
+http://schemas.microsoft.com/CMSvNext
+http://schemas.microsoft.com/mscom-data
+https://assets.onestore.ms/cdnfiles/onestorerolling-1612-12000/shell/v3/scss/shell.min.css
+https://assets.onestore.ms/cdnfiles/onestorerolling-1612-12000/shell/common/respond-proxy.html
+https://c.s-microsoft.com/en-us/CMSStyles/style.csx?k=142892db-8e97-7b8e-95af-4d499a738b1c
+https://www.microsoft.com
+https://assets.onestore.ms/cdnfiles/external/uhf/long/9a49a7e9d8e881327e81b9eb43dabc01de70a9bb/images/microsoft-gray.png
+https://www.microsoftstore.com/store/msusa/en_US/home
+https://www.microsoftstore.com/store/msusa/en_US/cat/All-Surface/categoryID.69403400?icid=en_US_Store_UH_devices_Surface
+https://www.microsoftstore.com/store/msusa/en_US/cat/All-PCs-tablets/categoryID.69404700?icid=en_US_Store_UH_devices_Pctab
+https://www.microsoftstore.com/store/msusa/en_US/cat/categoryID.69405400?icid=en_US_Store_UH_devices_Xbox
+https://www.microsoftstore.com/store/msusa/en_US/cat/Virtual-and-Augmented-Reality/categoryID.594470000?icid=en_US_Store_UH_devices_vr
+https://www.microsoftstore.com/store/msusa/en_US/cat/All-accessories/categoryID.69407900?icid=en_US_Store_UH_devices_Acc
+https://www.microsoftstore.com/store/msusa/en_US/cat/All-Windows-Phone/categoryID.69406200?icid=en_US_Store_UH_devices_WinPho
+https://www.microsoftstore.com/store/msusa/en_US/cat/All-Office/categoryID.69403900?icid=en_US_Store_UH_software_Office
+https://www.microsoftstore.com/store/msusa/en_US/cat/categoryID.70036700?=en_US_Store_UH_software_Win
+https://www.microsoftstore.com/store/msusa/en_US/cat/All-additional-software/categoryID.69407400?icid=en_US_Store_UH_software_addlsoft
+https://www.microsoft.com/en-us/store/apps/windows?icid=en_US_Store_UH_apps_Win
+https://www.microsoft.com/en-us/store/apps/windows-phone?icid=en_US_Store_UH_apps_WinPho
+https://www.microsoftstore.com/store/msusa/en_US/list/PC-games/categoryID.62688000?icid=en_US_Store_UH_games_PC
+https://www.microsoft.com/en-us/store/games/windows?icid=en_US_Store_UH_games_Win
+https://www.microsoft.com/en-us/store/games/windows-phone?icid=en_US_Store_UH_games_WinPho
+https://www.microsoft.com/en-us/store/movies-and-tv?icid=en_US_Store_UH_ent_MovTV
+https://www.microsoft.com/en-us/store/music?icid=en_US_Store_UH_ent_Music
+https://www.microsoftstore.com/store/msusa/en_US/cat/Sale/categoryID.69403000?icid=en_US_Store_UH_sale_sale
+https://www.microsoftstore.com/store/msusa/en_US/cat/categoryID.67871500
+https://www.microsoftstore.com/store/msusa/en_US/cat/PC-sale/categoryID.69325700
+https://www.microsoftstore.com/store/msusa/en_US/cat/Xbox-deals/categoryID.67557100
+https://www.microsoftstore.com/store/msusa/en_US/cat/Business/categoryID.69408700?icid=en_US_Store_UH_BusEd_BUS
+https://www.microsoftstore.com/store/msusa/en_US/edu?icid=en_US_Store_UH_BusEd_EDU
+https://www.microsoftstore.com/store/msusa/en_US/cat/Developer/categoryID.69418300?icid=en_US_Store_UH_BusEd_Dev
+https://www.microsoft.com/en-us/store/gift-cards
+https://products.office.com/en-us/home
+https://www.microsoft.com/en-us/download/default.aspx
+http://windows.microsoft.com/en-us/internet-explorer/download-ie
+http://www.microsoft.com/en-us/windows/microsoft-edge
+http://www.skype.com/en/
+http://www.onenote.com/
+https://onedrive.live.com/about/en-us/
+http://www.microsoft.com/microsoft-health/en-us
+http://www.msn.com/?ocid=HEA000
+http://www.bing.com
+https://www.microsoft.com/en-us/groove
+https://www.microsoft.com/en-us/movies-and-tv
+https://www.microsoft.com/devices/en-us
+http://www.microsoft.com/surface/en-us
+https://www.microsoftstore.com/store/msusa/en_US/cat/Computers/categoryID.62684600
+https://www.microsoft.com/accessories/en-us
+http://www.xbox.com
+http://www.microsoft.com/en-us/mobile/
+https://www.microsoft.com/en-us/windows/phones
+http://www.microsoft.com/microsoft-hololens/en-us
+http://www.microsoft.com/en-us/server-cloud/
+http://azure.microsoft.com/
+http://www.microsoft.com/en-us/dynamics/default.aspx
+http://www.microsoft.com/en-us/windows/business/default.aspx
+https://products.office.com/en-us/business/office
+https://products.office.com/en-us/skype-for-business
+http://www.microsoft.com/surface/en-us/business/overview
+http://www.microsoft.com/enterprise
+https://business.microsoft.com/en-us/
+https://pinpoint.microsoft.com
+https://www.microsoft.com/en-us/licensing/default.aspx
+https://developer.microsoft.com/en-us/windows 
+http://azure.microsoft.com/
+http://msdn.microsoft.com/en-us/
+http://technet.microsoft.com/en-us/
+http://www.visualstudio.com/
+http://www.microsoft.com/en-us/education/products/office/default.aspx
+http://www.microsoft.com/en-us/education/products/onenote/default.aspx
+http://www.microsoftstore.com/store/msusa/en_US/edu
+http://www.microsoft.com/en-us/education
+https://support.microsoft.com/en-us
+https://www.microsoft.com/en-us/search/result.aspx
+http://www.w3.org/1999/xhtml
+https://www.microsoftstore.com/store/msusa/en_US/pdp/Premium-Surface-Pro-4-Black-Type-Cover-Bundle/productID.5087549000
+https://products.office.com/en-us/compare-all-microsoft-office-products?tab=1&amp;WT.mc_id=oan_mscom_hp_o365attach
+https://www.microsoftstore.com/store/msusa/en_US/pdp/productID.5072641000&amp;VID=5072771000
+https://www.microsoftstore.com/store/msusa/en_US/cat/All-PCs-tablets/categoryID.70661300
+https://www.microsoftstore.com/store/msusa/en_US/cat/All-PCs-tablets/categoryID.70661300
+https://www.microsoftstore.com/store/msusa/en_US/pdp/productID.5060521700?WT.mc_id=X1703-ASww-092016
+https://www.microsoftstore.com/store/msusa/en_US/pdp/productID.5060521700?WT.mc_id=X1703-ASww-092016
+https://www.microsoft.com/en-us/windows/upcoming-features?ocid=Oct16e_int_omc_win_MSCOM
+https://www.microsoft.com/en-us/windows/upcoming-features?ocid=Oct16e_int_omc_win_MSCOM
+https://www.microsoftstore.com/store/msusa/en_US/cat/NFL/categoryID.68241000
+https://www.microsoftstore.com/store/msusa/en_US/cat/NFL/categoryID.68241000
+https://www.microsoft.com/en-us/store/collections/HomeCountdown/pc/?OCID=CD16_Blitz
+https://products.office.com/en-us/business/compare-office-365-for-business-plans?WT.mc_id=oan_mscom_hp_o365smb2017_1A
+https://products.office.com/en-us/business/compare-office-365-for-business-plans?WT.mc_id=oan_mscom_hp_o365smb2017_1A
+https://technet.microsoft.com/en-us/windows/dn798751.aspx
+https://technet.microsoft.com/en-us/windows/dn798751.aspx
+https://developer.microsoft.com/en-us/windows/downloads
+https://developer.microsoft.com/en-us/windows/downloads
+https://www.microsoft.com/en-us/dynamics365/home
+https://www.microsoft.com/en-us/dynamics365/home
+https://www.microsoft.com/en-us/empowering?story=lights&amp;ocid=lights_o_mscom_null_null_usa_null_null
+https://www.facebook.com/Microsoft
+https://c.s-microsoft.com/en-in/CMSImages/HPFeb15_social_Facebook.png?version=94742b06-2d0f-8bf3-1582-2c49d00151e3
+https://twitter.com/microsoft
+https://c.s-microsoft.com/en-in/CMSImages/HPFeb15_social_Twitter.png?version=8cd2eefc-dabe-c03f-8302-0f5c5956a70d
+https://www.linkedin.com/company/microsoft
+https://c.s-microsoft.com/es-es/CMSImages/LinkedIn_64x64.png?version=66c691bc-8d33-33e2-1dd1-86b2b25b850d
+http://www.microsoft.com/en-us/windows
+https://products.office.com/en-us/home
+https://www.skype.com/en/
+https://www.microsoft.com/en-us/outlook-com/?cb=v8ho
+https://onedrive.live.com/about/en-us/
+http://www.msn.com/?ocid=FOO000
+https://www.microsoft.com/en-us/surface
+https://www.microsoft.com/xbox/
+https://www.microsoft.com/en-us/windows/devices
+https://www.microsoft.com/en-us/mobile/
+https://www.microsoft.com/Microsoft-Band/en-us
+https://www.microsoft.com/microsoft-hololens/en-us
+https://www.microsoftstore.com/store/msusa/en_US/DisplayEditProfilePage/
+https://www.microsoftstore.com/store?Action=DisplayFindYourOrderPage&amp;Env=BASE&amp;Locale=en_US&amp;SiteID=msusa&amp;nextAction=DisplayAccountOrderListPage
+https://www.microsoft.com/en-us/store/locations/find-a-store
+https://www.microsoftstore.com/store/msusa/en_US/DisplayHelpReturnsRefundsPage/
+https://www.microsoftstore.com/store/msusa/en_US/DisplayHelpContactUsPage/
+https://www.microsoft.com/en-us/download
+https://support.microsoft.com/en-us/help/17777/downloads-for-windows 
+https://www.microsoft.com/en-us/windows/apps-and-games
+https://store.office.com/en-us/?WT.mc_id=OAN_en-us_MSCOM_ShopforApps-Office
+https://www.microsoft.com/en-us/mobile/apps/lumia/
+https://support.microsoft.com/en-us/help/17621/internet-explorer-downloads 
+https://www.microsoft.com/en-us/diversity/
+https://www.microsoft.com/en-us/accessibility/home
+https://www.microsoft.com/en-us/education
+http://www.microsoft.com/about/philanthropies
+http://www.microsoft.com/about/csr
+https://privacy.microsoft.com/en-us
+https://careers.microsoft.com/
+https://www.microsoft.com/en-us/about
+https://news.microsoft.com/
+https://www.microsoft.com/investor/default.aspx
+https://microsoft.com/research
+https://www.microsoft.com/en-us/sitemap.aspx
+http://www.microsoft.com/en-us/locale.aspx
+http://go.microsoft.com/?linkid=2028325
+https://go.microsoft.com/fwlink/?LinkId=521839
+http://go.microsoft.com/fwlink/?LinkID=206977
+https://www.microsoft.com/trademarks
+http://choice.microsoft.com
+http://c.microsoft.com/trans_pixel.aspx
+
+
+============================= HTML ==============================
+<html><head><meta/><meta/><script></script><script></script><script></script><title>
+</title><meta/><meta/><meta/><meta/><meta/><meta/><meta/><meta/><meta/><meta/>
+<meta/><link/><link/><link/><script></script><script></script><script></script>
+<script></script><script></script><link/></head><body><a></a><div><div><span>
+</span><span><div><div><div><p><span></span><span><a></a></span></p></div><button>
+<i></i></button></div><div><div><div><a><img/></a></div><div><ul><li></li><li><div>
+<a></a></div><div><dl><dt><a></a></dt></dl><dl><dt><a><i></i></a></dt><dd><ul><li>
+<a></a></li><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li><li><a>
+</a></li></ul></dd></dl><dl><dt><a><i></i></a></dt><dd><ul><li><a></a></li><li><a>
+</a></li><li><a></a></li><li><a></a></li><li><a></a></li></ul></dd></dl><dl><dt><a>
+<i></i></a></dt><dd><ul><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a>
+</li><li><a></a></li></ul></dd></dl><dl><dt><a><i></i></a></dt><dd><ul><li><a></a>
+</li><li><a></a></li><li><a></a></li><li><a></a></li></ul></dd></dl><dl><dt><a><i>
+</i></a></dt><dd><ul><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a>
+</li></ul></dd></dl></div></li><li><div><a></a></div><div><dl><dt><a><i></i></a>
+</dt><dd><ul><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li><li>
+<a></a></li><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li><li><a>
+</a></li><li><a></a></li><li><a></a></li><li><a></a></li></ul></dd></dl><dl><dt><a>
+<i></i></a></dt><dd><ul><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a>
+</li><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li></ul></dd>
+</dl><dl><dt><a><i></i></a></dt><dd><ul><li><a></a></li><li><a></a></li><li><a></a>
+</li><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a>
+</li><li><a></a></li><li><a></a></li><li><a></a></li></ul></dd></dl><dl><dt><a><i>
+</i></a></dt><dd><ul><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a>
+</li><li><a></a></li></ul></dd></dl><dl><dt><a><i></i></a></dt><dd><ul><li><a></a>
+</li><li><a></a></li><li><a></a></li><li><a></a></li></ul></dd></dl></div></li><li>
+<a></a></li></ul></div><div><dl><dt><span><div><div></div></div></span></dt></dl>
+</div><div><button><i></i></button></div><ul><li><button><i></i></button></li><li>
+<a><i></i><span></span><span></span></a></li></ul><div><form><div><label></label>
+<input/><input/><button><i></i><span></span></button><div><div><div><ul></ul></div>
+</div></div></div></form><div><a><i></i><span></span><span></span></a></div>
+<iframe></iframe></div></div></div></div><div></div><script></script></span><div>
+<span></span><div></div><script></script></div><script></script></div></div><main>
+<h1></h1></mscom:contentinclude><h2></h2><div><div><div><div><div><button></button>
+<button></button></div><button><span></span></button></div><button></button>
+<button></button><div><ul><li><section><picture><source/><source/><source/>
+<source/><source/><source/><img></img></picture><div><div><h3></h3><p></p><div>
+<span></span></a><a><span></span></a></div></div></div></section></li><li><section>
+<picture><source/><source/><source/><source/><source/><source/><img></img>
+</picture><div><div><h3></h3><p></p><div><a><span></span></a></div></div></div>
+</section></li></ul></div></div></div></div><div><h2></h2><div><div><div><section>
+<a><picture><source/><source/><source/><source/><source/><img/></picture><h3></h3>
+<p></p></a><a><span></span></a></section></div><div><div><section><a><picture>
+<source/><source/><source/><source/><source/><img/></picture><h3></h3><p></p></a>
+<a><span></span></a></section></div></div></div><div><div><section><a><picture>
+<source/><source/><source/><source/><source/><img/></picture><h3></h3><p></p></a>
+<a><span></span></a></section></div><div><div><section><a><picture><source/>
+<source/><source/><source/><source/><img/></picture><h3></h3><p></p></a><a><span>
+</span></a></section></div></div></div></div></div><section><picture><source/>
+<source/><source/><source/><source/><source/><img></img></picture><div><div><h2>
+</h2><p></p><div><a><span></span></a></div></div></div></section><div><h2></h2>
+</div><div><div><div><div><div><section><a><picture><source/><source/><source/>
+<source/><source/><img/></picture><h3></h3><p></p></a><a><span></span></a>
+</section></div></div><div><section><a><picture><source/><source/><source/>
+<source/><source/><img/></picture><h3></h3><p></p></a><a><span></span></a>
+</section></div></div><div><div><div><section><a><picture><source/><source/>
+<source/><source/><source/><img/></picture><h3></h3><p></p></a><a><span></span></a>
+</section></div></div><div><div><section><a><picture><source/><source/><source/>
+<source/><source/><img/></picture><h3></h3><p></p></a><a><span></span></a>
+</section></div></div></div></div></div><section><picture><source/><source/>
+<source/><source/><source/><source/><img></img></picture><div><div><h2></h2><p></p>
+<div><a><span></span></a></div></div></div></section><div><div><div><span></span>
+<ul><li><a><picture><img/></picture></a></li><li><a><picture><img/></picture></a>
+</li><li><a><picture><img/></picture></a></li></ul></div></div></div></main><div>
+<div><span><div><div><div><div><div><i></i></div><ul><li><a></a></li><li><a></a>
+</li><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li></ul></div>
+<div><div><i></i></div><ul><li><a></a></li><li><a></a></li><li><a></a></li><li><a>
+</a></li><li><a></a></li><li><a></a></li></ul></div><div><div><i></i></div><ul><li>
+<a></a></li><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li></ul>
+</div><div><div><i></i></div><ul><li><a></a></li><li><a></a></li><li><a></a></li>
+<li><a></a></li><li><a></a></li><li><a></a></li></ul></div><div><div><i></i></div>
+<ul><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a>
+</li><li><a></a></li></ul></div><div><div><i></i></div><ul><li><a></a></li><li><a>
+</a></li><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li></ul>
+</div></div><div><ul><li><i></i></li><li><a></a></li></ul></div><div><ul><li><a>
+</a></li><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li><li></li>
+</ul></div></div></div></span></div></div><script></script><script></script>
+<script></script><noscript><img/></noscript><script></script><noscript></noscript>
+<script></script><script></script></body></html>
+
+=========================== SEQUENCES ===========================
+Official Home Page 
+Try Microsoft Edge 
+Microsoft Surface 
+Microsoft Surface 
+PC Deals 
+Business Store 
+Internet Explorer 
+Microsoft Edge 
+Microsoft Health 
+Microsoft Groove 
+Microsoft Movies 
+All Microsoft 
+Microsoft Surface 
+All Windows PCs 
+Microsoft Lumia 
+All Windows 
+Microsoft HoloLens 
+Cloud Platform 
+Microsoft Azure 
+Microsoft Dynamics 
+Volume Licensing 
+Develop Windows 
+Microsoft Azure 
+Visual Studio 
+Shop PCs 
+Search Microsoft 
+Microsoft Official Homepage 
+SHOP NOW 
+SHOP NOW 
+Surface Pro 
+SHOP NOW 
+Featured PCs 
+SHOP FEATURED PCS 
+Xbox One S 
+Xbox One 
+Minecraft Bundle 
+BUY MINECRAFT FAVORITES BUNDLE 
+SEE WINDOWS 
+CREATORS UPDATE 
+NFL Xbox 
+SHOP NFL PRODUCTS 
+SHOP THE WINDOWS STORE 
+For Work 
+LEARN MORE ABOUT OFFICE 
+DOWNLOAD WINDOWS 
+Dev Tools 
+GET THE WINDOWS 
+DEV TOOLS 
+Microsoft Dynamics 
+LEARN ABOUT OUR CLOUD APPS 
+The CSD Eagles 
+LEARN MORE 
+Follow Microsoft 
+Microsoft Surface 
+Microsoft Lumia 
+Microsoft Band 
+Microsoft HoloLens 
+Microsoft Store 
+Download Center 
+Microsoft Lumia 
+Internet Explorer 
+About Microsoft 
+English United States 
