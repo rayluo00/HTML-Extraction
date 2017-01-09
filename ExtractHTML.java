@@ -121,7 +121,7 @@ public class ExtractHTML {
 
 	/**************************************************************************************
 	 * Remove any punctuations from the String word that is used by the FindSequence()
-	 * method. 
+	 * function. 
 	 */
 	private static String RemovePunctuations (String word) {
 		String newWord = "";
@@ -276,7 +276,7 @@ public class ExtractHTML {
 	 * for it's HTML document.
 	 */
 	public static void main (String[] args) {
-		//File outputDir = new File("OutputTxtFiles");
+		File outputDir = new File("OutputTxtFiles");
 		String website = args[0];
 		String htmlString;
 		String outputFileName = args[1];
@@ -290,23 +290,22 @@ public class ExtractHTML {
 		System.out.println("Connect to: "+website+"\n");
 		
 		try {
-			// Uncomment code blow if computer can not run Makefiles to create
-			// the output directory 'OutputTxtFiles'. And 'outputDir' variable.
-
-			/*if (!outputDir.exists()) {
-				mkdir(outputDir);
-			}*/
+			if (!outputDir.exists()) {
+				outputDir.mkdir();
+			}
 
 			URL siteUrl = new URL(website);
-			URLConnection urlConnection = siteUrl.openConnection();
+			HttpURLConnection urlConnection = (HttpURLConnection) siteUrl.openConnection();
 			BufferedReader urlReader = new BufferedReader(
 							new InputStreamReader(urlConnection.getInputStream()));
 			
 			htmlDataList = ConstructHtmlString(urlReader);
-			urlReader.close();
 
 			ParseHtml(htmlDataList);
 			WriteToFile(outputFileName);
+
+			urlReader.close();
+			urlConnection.disconnect();
 
 		} catch (MalformedURLException e) {
 			System.out.println("ERROR: Problem with the URL of the website.\n");
